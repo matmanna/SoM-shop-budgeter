@@ -1,0 +1,22 @@
+{
+  "name": "som-shop-analysis",
+  "version": "1.0.0",
+  "description": "Vibecoded webapp for analysing and budgetting the HackClub SoM shop (likely many inaccuracies)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^7.1.8"
+  }
+}
