@@ -401,6 +401,7 @@ const ShopAnalysis = () => {
               <thead className="bg-gradient-to-r from-blue-100 to-sky-200 text-blue-900 border-b-2 border-blue-300">
                 <tr>
                   <th className="px-4 py-3 text-left text-xs font-bold uppercase tracking-wide">Actions</th>
+                  <th className="px-4 py-3 text-left text-xs font-bold uppercase tracking-wide">Image</th>
                   <th className="px-4 py-3 text-left cursor-pointer hover:bg-blue-200 text-xs font-bold uppercase tracking-wide transition-colors" onClick={() => requestSort('name')}>
                     <div className="flex items-center gap-1">
                       Item Name <ArrowUpDown size={12} />
@@ -463,6 +464,22 @@ const ShopAnalysis = () => {
                           <Heart size={14} fill={wishlistItems.has(item.name) ? 'currentColor' : 'none'} />
                         </button>
                       </div>
+                    </td>
+                    <td className="px-4 py-3">
+                      {item.image ? (
+                        <img 
+                          src={item.image} 
+                          alt={item.name}
+                          className="w-12 h-12 object-cover rounded-lg border-2 border-blue-200"
+                          onError={(e) => {
+                            e.target.style.display = 'none';
+                          }}
+                        />
+                      ) : (
+                        <div className="w-12 h-12 bg-blue-100 rounded-lg border-2 border-blue-200 flex items-center justify-center text-xs text-blue-500">
+                          No img
+                        </div>
+                      )}
                     </td>
                     <td className="px-4 py-3 font-bold text-blue-900">{item.name}</td>
                     <td className="px-4 py-3">

@@ -10,7 +10,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=stickers",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=stickers"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/pile-of-stickers.png",
+    "stock": null
   },
   {
     "name": "64GB USB Drive",
@@ -23,7 +25,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=64gb+usb+drive",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=64gb+usb+drive"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/64gb-usb-drive.png",
+    "stock": null
   },
   {
     "name": "Rubber duck",
@@ -36,7 +40,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=rubber+duck",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=rubber+duck"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/rubber-duck.png",
+    "stock": null
   },
   {
     "name": "128GB USB Drive",
@@ -49,7 +55,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=128gb+usb+drive",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=128gb+usb+drive"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/128gb-usb-drive.png",
+    "stock": null
   },
   {
     "name": "256GB USB Drive",
@@ -62,7 +70,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=256gb+usb+drive",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=256gb+usb+drive"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/256gb-usb-drive.png",
+    "stock": null
   },
   {
     "name": "GitHub Branded Notebook",
@@ -75,7 +85,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=notebook",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=notebook"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/github-branded-notebook.png",
+    "stock": null
   },
   {
     "name": "256GB microSD + adapter",
@@ -88,7 +100,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=256gb+microsd",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=256gb+microsd"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/256gb-microsd-adapter.png",
+    "stock": null
   },
   {
     "name": "512GB microSD card",
@@ -101,7 +115,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=512gb+microsd",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=512gb+microsd"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/512gb-microsd-card.png",
+    "stock": null
   },
   {
     "name": "AI Usage Credits",
@@ -111,7 +127,9 @@
     "categories": [
       "grants"
     ],
-    "links": {}
+    "links": {},
+    "image": "https://summer.hackclub.com/api/shop/items/ai-usage-credits.png",
+    "stock": null
   },
   {
     "name": "Cloudflare credits",
@@ -123,7 +141,9 @@
     ],
     "links": {
       "manufacturer": "https://www.cloudflare.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/cloudflare-credits.png",
+    "stock": null
   },
   {
     "name": "JLCPCB Grant",
@@ -136,7 +156,9 @@
     ],
     "links": {
       "manufacturer": "https://jlcpcb.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/jlcpcb-grant.png",
+    "stock": null
   },
   {
     "name": "Domain grant",
@@ -146,7 +168,9 @@
     "categories": [
       "grants"
     ],
-    "links": {}
+    "links": {},
+    "image": "https://summer.hackclub.com/api/shop/items/domain-grant.png",
+    "stock": null
   },
   {
     "name": "Nebula.tv 1 Month",
@@ -158,7 +182,9 @@
     ],
     "links": {
       "manufacturer": "https://nebula.tv/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/nebulatv-1-month.png",
+    "stock": null
   },
   {
     "name": "iFixit Credits",
@@ -171,7 +197,9 @@
     ],
     "links": {
       "manufacturer": "https://www.ifixit.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/ifixit-credits.png",
+    "stock": null
   },
   {
     "name": "Server hosting credits",
@@ -181,7 +209,9 @@
     "categories": [
       "grants"
     ],
-    "links": {}
+    "links": {},
+    "image": "https://summer.hackclub.com/api/shop/items/server-hosting-credits.png",
+    "stock": null
   },
   {
     "name": "10$ to Signal",
@@ -193,7 +223,9 @@
     ],
     "links": {
       "manufacturer": "https://signal.org/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/10-to-signal.png",
+    "stock": null
   },
   {
     "name": "Purelymail credits",
@@ -205,7 +237,9 @@
     ],
     "links": {
       "manufacturer": "https://purelymail.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/purelymail-credits.png",
+    "stock": null
   },
   {
     "name": "Bambu Lab Credits",
@@ -218,7 +252,9 @@
     ],
     "links": {
       "manufacturer": "https://bambulab.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/bambu-lab-credits.png",
+    "stock": null
   },
   {
     "name": "DigiKey/LCSC Credit",
@@ -231,7 +267,9 @@
     ],
     "links": {
       "manufacturer": "https://www.digikey.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/digikeylcsc-credit.png",
+    "stock": null
   },
   {
     "name": "$20 Framework Credit",
@@ -244,7 +282,9 @@
     ],
     "links": {
       "manufacturer": "https://frame.work/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/20-framework-credit.png",
+    "stock": null
   },
   {
     "name": "dbrand credits",
@@ -256,7 +296,9 @@
     ],
     "links": {
       "manufacturer": "https://dbrand.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/dbrand-credits.png",
+    "stock": null
   },
   {
     "name": "$25 IKEA Credit",
@@ -268,7 +310,9 @@
     ],
     "links": {
       "manufacturer": "https://www.ikea.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/25-ikea-credit.png",
+    "stock": null
   },
   {
     "name": "Keychron Credits",
@@ -281,7 +325,9 @@
     ],
     "links": {
       "manufacturer": "https://www.keychron.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/keychron-credits.png",
+    "stock": null
   },
   {
     "name": "$500 Amp Credit",
@@ -291,7 +337,9 @@
     "categories": [
       "grants"
     ],
-    "links": {}
+    "links": {},
+    "image": "https://summer.hackclub.com/api/shop/items/500-amp-credit.png",
+    "stock": null
   },
   {
     "name": "TIS-100",
@@ -304,7 +352,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=TIS-100",
       "manufacturer": "https://store.steampowered.com/app/370360/TIS100/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/tis-100.png",
+    "stock": null
   },
   {
     "name": "Geometry Dash",
@@ -316,7 +366,9 @@
     ],
     "links": {
       "manufacturer": "https://store.steampowered.com/app/322170/Geometry_Dash/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/geometry-dash.png",
+    "stock": null
   },
   {
     "name": "shapez 2",
@@ -328,7 +380,9 @@
     ],
     "links": {
       "manufacturer": "https://store.steampowered.com/app/2162800/shapez_2/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/shapez-2.png",
+    "stock": null
   },
   {
     "name": "Factorio",
@@ -340,7 +394,9 @@
     ],
     "links": {
       "manufacturer": "https://store.steampowered.com/app/427520/Factorio/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/factorio.png",
+    "stock": null
   },
   {
     "name": "Logic Analyzer",
@@ -354,7 +410,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=logic+analyzer",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=logic+analyzer"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/logic-analyzer.png",
+    "stock": null
   },
   {
     "name": "Hot Glue Gun",
@@ -369,7 +427,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=hot+glue+gun",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=hot+glue+gun"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/hot-glue-gun.png",
+    "stock": null
   },
   {
     "name": "Orpheus Pico",
@@ -382,7 +442,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=orpheus+pico",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=orpheus+pico"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/orpheus-pico.png",
+    "stock": null
   },
   {
     "name": "E-Fidget",
@@ -395,7 +457,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=electronic+fidget",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=electronic+fidget"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/e-fidget.png",
+    "stock": null
   },
   {
     "name": "Allen Wrench",
@@ -409,7 +473,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=allen+wrench+set",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=allen+wrench+set"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/allen-wrench.png",
+    "stock": null
   },
   {
     "name": "CH341A Programmer",
@@ -423,7 +489,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=CH341A+programmer",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=CH341A+programmer"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/ch341a-programmer.png",
+    "stock": null
   },
   {
     "name": "SMD Hotplate",
@@ -437,7 +505,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=SMD+hotplate",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=SMD+hotplate"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/smd-hotplate.png",
+    "stock": null
   },
   {
     "name": "Raspberry Pi Zero 2 W",
@@ -451,7 +521,9 @@
       "amazon": "https://www.amazon.com/s?k=raspberry+pi+zero+2+w",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=raspberry+pi+zero+2+w",
       "manufacturer": "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/raspberry-pi-zero-2-w.png",
+    "stock": null
   },
   {
     "name": "Digital Calipers",
@@ -466,7 +538,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=digital+calipers",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=digital+calipers"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/digital-calipers.png",
+    "stock": null
   },
   {
     "name": "Yubikey USB-C",
@@ -482,7 +556,9 @@
       "amazon": "https://www.amazon.com/s?k=yubikey+usb-c",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=yubikey+usb-c",
       "manufacturer": "https://www.yubico.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/yubikey-usb-c.png",
+    "stock": null
   },
   {
     "name": "ESP32 Kit",
@@ -495,7 +571,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=ESP32+kit",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=ESP32+kit"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/esp32-kit.png",
+    "stock": null
   },
   {
     "name": "Proxmark 3 Easy",
@@ -510,7 +588,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=proxmark+3",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=proxmark+3"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/proxmark-3-easy.png",
+    "stock": null
   },
   {
     "name": "Pinecil",
@@ -524,7 +604,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=pinecil+soldering+iron",
       "manufacturer": "https://www.pine64.org/pinecil/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/pinecil.png",
+    "stock": null
   },
   {
     "name": "USB C Cable + Adapter",
@@ -538,7 +620,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=usb+c+cable+adapter",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=usb+c+cable+adapter"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/usb-c-cable-adapter.png",
+    "stock": null
   },
   {
     "name": "HackDucky",
@@ -553,7 +637,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=rubber+ducky",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=rubber+ducky"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/hackducky.png",
+    "stock": null
   },
   {
     "name": "Brother Label Maker",
@@ -568,7 +654,9 @@
       "amazon": "https://www.amazon.com/s?k=brother+label+maker",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=brother+label+maker",
       "manufacturer": "https://www.brother-usa.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/brother-label-maker.png",
+    "stock": null
   },
   {
     "name": "Dupont Crimping Tool",
@@ -582,7 +670,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=dupont+crimping+tool",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=dupont+crimping+tool"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/dupont-crimping-tool.png",
+    "stock": null
   },
   {
     "name": "GL.iNet Router",
@@ -595,7 +685,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=gl.inet+router",
       "manufacturer": "https://www.gl-inet.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/glinet-router.png",
+    "stock": null
   },
   {
     "name": "Icepi Zero",
@@ -608,7 +700,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=icepi+zero",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=icepi+zero"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/icepi-zero.png",
+    "stock": null
   },
   {
     "name": "Yubikey USB-A",
@@ -624,7 +718,9 @@
       "amazon": "https://www.amazon.com/s?k=yubikey+usb-a",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=yubikey+usb-a",
       "manufacturer": "https://www.yubico.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/yubikey-usb-a.png",
+    "stock": null
   },
   {
     "name": "Baofeng UV-5R (2pk)",
@@ -638,7 +734,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=baofeng+uv-5r",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=baofeng+uv-5r"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/baofeng-uv-5r-2pk.png",
+    "stock": null
   },
   {
     "name": "CMF Buds Pro 2",
@@ -652,7 +750,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=cmf+buds+pro+2",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=cmf+buds+pro+2"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/cmf-buds-pro-2.png",
+    "stock": null
   },
   {
     "name": "Creality Filament Dryer",
@@ -667,7 +767,9 @@
       "amazon": "https://www.amazon.com/s?k=creality+filament+dryer",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=creality+filament+dryer",
       "manufacturer": "https://www.creality.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/creality-filament-dryer.png",
+    "stock": null
   },
   {
     "name": "7.5\" E-Ink Display",
@@ -680,7 +782,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=7.5+inch+e-ink+display",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=7.5+inch+e-ink+display"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/75-e-ink-display.png",
+    "stock": null
   },
   {
     "name": "LTT Screwdriver",
@@ -693,7 +797,9 @@
     ],
     "links": {
       "manufacturer": "https://www.lttstore.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/ltt-screwdriver.png",
+    "stock": null
   },
   {
     "name": "Raspberry Pi 500",
@@ -706,7 +812,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=raspberry+pi+500",
       "manufacturer": "https://www.raspberrypi.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/raspberry-pi-500.png",
+    "stock": null
   },
   {
     "name": "min(amame) Parts Kit",
@@ -717,7 +825,9 @@
       "hardware",
       "3d-printing"
     ],
-    "links": {}
+    "links": {},
+    "image": "https://summer.hackclub.com/api/shop/items/minamame-parts-kit.png",
+    "stock": null
   },
   {
     "name": "Seagate 2TB HDD",
@@ -731,7 +841,9 @@
       "amazon": "https://www.amazon.com/s?k=seagate+2tb+hdd",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=seagate+2tb+hdd",
       "manufacturer": "https://www.seagate.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/seagate-2tb-hdd.png",
+    "stock": null
   },
   {
     "name": "Logitech MX Master 3S",
@@ -745,7 +857,9 @@
       "amazon": "https://www.amazon.com/s?k=logitech+mx+master+3s",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=logitech+mx+master+3s",
       "manufacturer": "https://www.logitech.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/logitech-mx-master-3s.png",
+    "stock": null
   },
   {
     "name": "1TB Portable SSD",
@@ -758,7 +872,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=1tb+portable+ssd",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=1tb+portable+ssd"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/1tb-portable-ssd.png",
+    "stock": null
   },
   {
     "name": "Thermal Imager",
@@ -772,7 +888,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=thermal+imager",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=thermal+imager"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/thermal-imager.png",
+    "stock": null
   },
   {
     "name": "Raspberry Pi 5",
@@ -786,7 +904,9 @@
       "amazon": "https://www.amazon.com/s?k=raspberry+pi+5",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=raspberry+pi+5",
       "manufacturer": "https://www.raspberrypi.com/products/raspberry-pi-5/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/raspberry-pi-5.png",
+    "stock": null
   },
   {
     "name": "K4 Laser Engraver",
@@ -800,7 +920,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=k4+laser+engraver",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=k4+laser+engraver"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/k4-laser-engraver.png",
+    "stock": null
   },
   {
     "name": "Polaroid Go Gen 2",
@@ -814,7 +936,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=polaroid+go+gen+2",
       "manufacturer": "https://www.polaroid.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/polaroid-go-gen-2.png",
+    "stock": null
   },
   {
     "name": "Logi G Pro X SL",
@@ -828,7 +952,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=logitech+g+pro+x+superlight",
       "manufacturer": "https://www.logitech.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/logi-g-pro-x-sl.png",
+    "stock": null
   },
   {
     "name": "Glasgow Interface",
@@ -842,7 +968,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=glasgow+interface",
       "manufacturer": "https://glasgow-embedded.org/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/glasgow-interface.png",
+    "stock": null
   },
   {
     "name": "XPPen Deco Pro MW",
@@ -855,7 +983,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=xppen+deco+pro+mw",
       "manufacturer": "https://www.xp-pen.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/xppen-deco-pro-mw.png",
+    "stock": null
   },
   {
     "name": "head(amame) Parts",
@@ -866,7 +996,9 @@
       "hardware",
       "3d-printing"
     ],
-    "links": {}
+    "links": {},
+    "image": "https://summer.hackclub.com/api/shop/items/headamame-parts.png",
+    "stock": null
   },
   {
     "name": "SlimeVR DIY Kit",
@@ -879,7 +1011,9 @@
     ],
     "links": {
       "manufacturer": "https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/slimevr-diy-kit.png",
+    "stock": null
   },
   {
     "name": "Raspberry Pi 500+",
@@ -892,7 +1026,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=raspberry+pi+500",
       "manufacturer": "https://www.raspberrypi.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/raspberry-pi-500.png",
+    "stock": null
   },
   {
     "name": "Flipper Zero",
@@ -908,7 +1044,9 @@
       "amazon": "https://www.amazon.com/s?k=flipper+zero",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=flipper+zero",
       "manufacturer": "https://flipperzero.one/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/flipper-zero.png",
+    "stock": null
   },
   {
     "name": "Bose QC 45",
@@ -923,7 +1061,9 @@
       "amazon": "https://www.amazon.com/s?k=bose+qc+45",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=bose+qc+45",
       "manufacturer": "https://www.bose.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/bose-qc-45.png",
+    "stock": null
   },
   {
     "name": "Cricut Explore 3",
@@ -937,7 +1077,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=cricut+explore+3",
       "manufacturer": "https://cricut.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/cricut-explore-3.png",
+    "stock": null
   },
   {
     "name": "Bambu A1 Mini",
@@ -951,7 +1093,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=bambu+a1+mini",
       "manufacturer": "https://bambulab.com/en/a1-mini"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/bambu-a1-mini.png",
+    "stock": null
   },
   {
     "name": "Playdate",
@@ -966,7 +1110,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=playdate+console",
       "manufacturer": "https://play.date/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/playdate.png",
+    "stock": null
   },
   {
     "name": "100MHz Oscilloscope",
@@ -980,7 +1126,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=100mhz+oscilloscope",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=100mhz+oscilloscope"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/100mhz-oscilloscope.png",
+    "stock": null
   },
   {
     "name": "Bambu A1",
@@ -994,7 +1142,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=bambu+a1",
       "manufacturer": "https://bambulab.com/en/a1"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/bambu-a1.png",
+    "stock": null
   },
   {
     "name": "Mullvad VPN 6mo",
@@ -1006,7 +1156,9 @@
     ],
     "links": {
       "manufacturer": "https://mullvad.net/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/mullvad-vpn-6mo.png",
+    "stock": null
   },
   {
     "name": "Clip Studio Paint PRO",
@@ -1018,7 +1170,9 @@
     ],
     "links": {
       "manufacturer": "https://www.clipstudio.net/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/clip-studio-paint-pro.png",
+    "stock": null
   },
   {
     "name": "TryHackMe Premium 1y",
@@ -1030,7 +1184,9 @@
     ],
     "links": {
       "manufacturer": "https://tryhackme.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/tryhackme-premium-1y.png",
+    "stock": null
   },
   {
     "name": "Nebula.tv Lifetime",
@@ -1042,7 +1198,9 @@
     ],
     "links": {
       "manufacturer": "https://nebula.tv/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/nebulatv-lifetime.png",
+    "stock": null
   },
   {
     "name": "Speedcube",
@@ -1055,7 +1213,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=speedcube",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=speedcube"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/speedcube.png",
+    "stock": null
   },
   {
     "name": "Smolhaj",
@@ -1067,7 +1227,9 @@
     ],
     "links": {
       "manufacturer": "https://www.ikea.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/smolhaj.png",
+    "stock": null
   },
   {
     "name": "Squishmallow",
@@ -1080,7 +1242,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=squishmallow",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=squishmallow"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/squishmallow.png",
+    "stock": null
   },
   {
     "name": "iPad + Apple Pencil",
@@ -1093,7 +1257,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=ipad+apple+pencil",
       "manufacturer": "https://www.apple.com/ipad/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/ipad-apple-pencil.png",
+    "stock": null
   },
   {
     "name": "Nintendo Switch 2",
@@ -1107,7 +1273,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=nintendo+switch",
       "manufacturer": "https://www.nintendo.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/nintendo-switch-2.png",
+    "stock": null
   },
   {
     "name": "reMarkable 2",
@@ -1120,7 +1288,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=remarkable+2",
       "manufacturer": "https://remarkable.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/remarkable-2.png",
+    "stock": null
   },
   {
     "name": "M4 Mac Mini",
@@ -1133,7 +1303,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=mac+mini+m4",
       "manufacturer": "https://www.apple.com/mac-mini/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/m4-mac-mini.png",
+    "stock": null
   },
   {
     "name": "DJI Mini 4 Pro",
@@ -1147,7 +1319,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=dji+mini+4+pro",
       "manufacturer": "https://www.dji.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/dji-mini-4-pro.png",
+    "stock": null
   },
   {
     "name": "Framework Laptop 12",
@@ -1160,7 +1334,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=framework+laptop",
       "manufacturer": "https://frame.work/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/framework-laptop-12.png",
+    "stock": null
   },
   {
     "name": "Prusa Core One",
@@ -1174,7 +1350,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=prusa+core+one",
       "manufacturer": "https://www.prusa3d.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/prusa-core-one.png",
+    "stock": null
   },
   {
     "name": "13\" M4 MacBook Air",
@@ -1187,7 +1365,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=macbook+air+m4",
       "manufacturer": "https://www.apple.com/macbook-air/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/13-m4-macbook-air.png",
+    "stock": null
   },
   {
     "name": "Prusa MK4S",
@@ -1201,7 +1381,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=prusa+mk4s",
       "manufacturer": "https://www.prusa3d.com/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/prusa-mk4s.png",
+    "stock": null
   },
   {
     "name": "MacBook Pro M4",
@@ -1214,7 +1396,9 @@
     "links": {
       "amazon": "https://www.amazon.com/s?k=macbook+pro+m4",
       "manufacturer": "https://www.apple.com/macbook-pro/"
-    }
+    },
+    "image": "https://summer.hackclub.com/api/shop/items/macbook-pro-m4.png",
+    "stock": null
   },
   {
     "name": "Spider Badge",
@@ -1224,7 +1408,9 @@
     "categories": [
       "useless"
     ],
-    "links": {}
+    "links": {},
+    "image": "https://summer.hackclub.com/api/shop/items/spider-badge.png",
+    "stock": null
   },
   {
     "name": "Custom CSS Badge",
@@ -1234,7 +1420,9 @@
     "categories": [
       "useless"
     ],
-    "links": {}
+    "links": {},
+    "image": "https://summer.hackclub.com/api/shop/items/custom-css-badge.png",
+    "stock": null
   },
   {
     "name": "Summer of Making Blue",
@@ -1244,7 +1432,9 @@
     "categories": [
       "fun"
     ],
-    "links": {}
+    "links": {},
+    "image": "https://summer.hackclub.com/api/shop/items/summer-of-making-blue.png",
+    "stock": null
   },
   {
     "name": "Sunglasses Badge",
@@ -1254,7 +1444,9 @@
     "categories": [
       "useless"
     ],
-    "links": {}
+    "links": {},
+    "image": "https://summer.hackclub.com/api/shop/items/sunglasses-badge.png",
+    "stock": null
   },
   {
     "name": "Pocket Watcher Badge",
@@ -1264,7 +1456,9 @@
     "categories": [
       "useless"
     ],
-    "links": {}
+    "links": {},
+    "image": "https://summer.hackclub.com/api/shop/items/pocket-watcher-badge.png",
+    "stock": null
   },
   {
     "name": "Offshore Bank Account",
@@ -1274,7 +1468,9 @@
     "categories": [
       "useless"
     ],
-    "links": {}
+    "links": {},
+    "image": "https://summer.hackclub.com/api/shop/items/offshore-bank-account.png",
+    "stock": null
   },
   {
     "name": "Gold Verified",
@@ -1284,7 +1480,9 @@
     "categories": [
       "useless"
     ],
-    "links": {}
+    "links": {},
+    "image": "https://summer.hackclub.com/api/shop/items/gold-verified.png",
+    "stock": null
   },
   {
     "name": "I am Rich Badge",
@@ -1294,6 +1492,8 @@
     "categories": [
       "useless"
     ],
-    "links": {}
+    "links": {},
+    "image": "https://summer.hackclub.com/api/shop/items/i-am-rich-badge.png",
+    "stock": null
   }
 ]
