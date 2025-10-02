@@ -1,0 +1,1048 @@
+[
+  {
+    "name": "Pile of Stickers",
+    "shellCost": 23,
+    "retailPrice": 5,
+    "resalePrice": 1,
+    "categories": ["fun"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=stickers",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=stickers"
+    }
+  },
+  {
+    "name": "64GB USB Drive",
+    "shellCost": 35,
+    "retailPrice": 8,
+    "resalePrice": 5,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=64gb+usb+drive",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=64gb+usb+drive"
+    }
+  },
+  {
+    "name": "Rubber duck",
+    "shellCost": 75,
+    "retailPrice": 10,
+    "resalePrice": 5,
+    "categories": ["fun"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=rubber+duck",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=rubber+duck"
+    }
+  },
+  {
+    "name": "128GB USB Drive",
+    "shellCost": 65,
+    "retailPrice": 12,
+    "resalePrice": 8,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=128gb+usb+drive",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=128gb+usb+drive"
+    }
+  },
+  {
+    "name": "256GB USB Drive",
+    "shellCost": 125,
+    "retailPrice": 25,
+    "resalePrice": 18,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=256gb+usb+drive",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=256gb+usb+drive"
+    }
+  },
+  {
+    "name": "GitHub Branded Notebook",
+    "shellCost": 200,
+    "retailPrice": 15,
+    "resalePrice": 5,
+    "categories": ["fun"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=notebook",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=notebook"
+    }
+  },
+  {
+    "name": "256GB microSD + adapter",
+    "shellCost": 110,
+    "retailPrice": 20,
+    "resalePrice": 15,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=256gb+microsd",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=256gb+microsd"
+    }
+  },
+  {
+    "name": "512GB microSD card",
+    "shellCost": 200,
+    "retailPrice": 40,
+    "resalePrice": 30,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=512gb+microsd",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=512gb+microsd"
+    }
+  },
+  {
+    "name": "AI Usage Credits",
+    "shellCost": 35,
+    "retailPrice": 10,
+    "resalePrice": 10,
+    "categories": ["credits"],
+    "links": {}
+  },
+  {
+    "name": "Cloudflare credits",
+    "shellCost": 35,
+    "retailPrice": 10,
+    "resalePrice": 10,
+    "categories": ["credits"],
+    "links": {
+      "manufacturer": "https://www.cloudflare.com/"
+    }
+  },
+  {
+    "name": "JLCPCB Grant",
+    "shellCost": 35,
+    "retailPrice": 10,
+    "resalePrice": 10,
+    "categories": ["credits", "3d-printing-related"],
+    "links": {
+      "manufacturer": "https://jlcpcb.com/"
+    }
+  },
+  {
+    "name": "Domain grant",
+    "shellCost": 40,
+    "retailPrice": 10,
+    "resalePrice": 10,
+    "categories": ["credits"],
+    "links": {}
+  },
+  {
+    "name": "Nebula.tv 1 Month",
+    "shellCost": 40,
+    "retailPrice": 5,
+    "resalePrice": 5,
+    "categories": ["credits"],
+    "links": {
+      "manufacturer": "https://nebula.tv/"
+    }
+  },
+  {
+    "name": "iFixit Credits",
+    "shellCost": 47,
+    "retailPrice": 15,
+    "resalePrice": 15,
+    "categories": ["credits", "tools"],
+    "links": {
+      "manufacturer": "https://www.ifixit.com/"
+    }
+  },
+  {
+    "name": "Server hosting credits",
+    "shellCost": 50,
+    "retailPrice": 15,
+    "resalePrice": 15,
+    "categories": ["credits"],
+    "links": {}
+  },
+  {
+    "name": "10$ to Signal",
+    "shellCost": 50,
+    "retailPrice": 10,
+    "resalePrice": 10,
+    "categories": ["credits"],
+    "links": {
+      "manufacturer": "https://signal.org/"
+    }
+  },
+  {
+    "name": "Purelymail credits",
+    "shellCost": 60,
+    "retailPrice": 10,
+    "resalePrice": 10,
+    "categories": ["credits"],
+    "links": {
+      "manufacturer": "https://purelymail.com/"
+    }
+  },
+  {
+    "name": "Bambu Lab Credits",
+    "shellCost": 85,
+    "retailPrice": 25,
+    "resalePrice": 25,
+    "categories": ["credits", "3d-printing-related"],
+    "links": {
+      "manufacturer": "https://bambulab.com/"
+    }
+  },
+  {
+    "name": "DigiKey/LCSC Credit",
+    "shellCost": 85,
+    "retailPrice": 25,
+    "resalePrice": 25,
+    "categories": ["credits", "hardware"],
+    "links": {
+      "manufacturer": "https://www.digikey.com/"
+    }
+  },
+  {
+    "name": "$20 Framework Credit",
+    "shellCost": 103,
+    "retailPrice": 20,
+    "resalePrice": 20,
+    "categories": ["credits", "hardware"],
+    "links": {
+      "manufacturer": "https://frame.work/"
+    }
+  },
+  {
+    "name": "dbrand credits",
+    "shellCost": 125,
+    "retailPrice": 35,
+    "resalePrice": 35,
+    "categories": ["credits"],
+    "links": {
+      "manufacturer": "https://dbrand.com/"
+    }
+  },
+  {
+    "name": "$25 IKEA Credit",
+    "shellCost": 170,
+    "retailPrice": 25,
+    "resalePrice": 25,
+    "categories": ["credits"],
+    "links": {
+      "manufacturer": "https://www.ikea.com/"
+    }
+  },
+  {
+    "name": "Keychron Credits",
+    "shellCost": 225,
+    "retailPrice": 65,
+    "resalePrice": 65,
+    "categories": ["credits", "hardware"],
+    "links": {
+      "manufacturer": "https://www.keychron.com/"
+    }
+  },
+  {
+    "name": "$500 Amp Credit",
+    "shellCost": 1750,
+    "retailPrice": 500,
+    "resalePrice": 500,
+    "categories": ["credits"],
+    "links": {}
+  },
+  {
+    "name": "TIS-100",
+    "shellCost": 32,
+    "retailPrice": 6.99,
+    "resalePrice": 3.5,
+    "categories": ["games"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=TIS-100",
+      "manufacturer": "https://store.steampowered.com/app/370360/TIS100/"
+    }
+  },
+  {
+    "name": "Geometry Dash",
+    "shellCost": 33,
+    "retailPrice": 3.99,
+    "resalePrice": 2,
+    "categories": ["games"],
+    "links": {
+      "manufacturer": "https://store.steampowered.com/app/322170/Geometry_Dash/"
+    }
+  },
+  {
+    "name": "shapez 2",
+    "shellCost": 137,
+    "retailPrice": 14.99,
+    "resalePrice": 8,
+    "categories": ["games"],
+    "links": {
+      "manufacturer": "https://store.steampowered.com/app/2162800/shapez_2/"
+    }
+  },
+  {
+    "name": "Factorio",
+    "shellCost": 175,
+    "retailPrice": 35,
+    "resalePrice": 20,
+    "categories": ["games"],
+    "links": {
+      "manufacturer": "https://store.steampowered.com/app/427520/Factorio/"
+    }
+  },
+  {
+    "name": "Logic Analyzer",
+    "shellCost": 50,
+    "retailPrice": 15,
+    "resalePrice": 8,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=logic+analyzer",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=logic+analyzer"
+    }
+  },
+  {
+    "name": "Hot Glue Gun",
+    "shellCost": 66,
+    "retailPrice": 12,
+    "resalePrice": 5,
+    "categories": ["hardware", "tools", "3d-printing-related"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=hot+glue+gun",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=hot+glue+gun"
+    }
+  },
+  {
+    "name": "Orpheus Pico",
+    "shellCost": 75,
+    "retailPrice": 8,
+    "resalePrice": 5,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=orpheus+pico",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=orpheus+pico"
+    }
+  },
+  {
+    "name": "E-Fidget",
+    "shellCost": 79,
+    "retailPrice": 20,
+    "resalePrice": 12,
+    "categories": ["hardware", "fun"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=electronic+fidget",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=electronic+fidget"
+    }
+  },
+  {
+    "name": "Allen Wrench",
+    "shellCost": 92,
+    "retailPrice": 8,
+    "resalePrice": 4,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=allen+wrench+set",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=allen+wrench+set"
+    }
+  },
+  {
+    "name": "CH341A Programmer",
+    "shellCost": 97,
+    "retailPrice": 15,
+    "resalePrice": 8,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=CH341A+programmer",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=CH341A+programmer"
+    }
+  },
+  {
+    "name": "SMD Hotplate",
+    "shellCost": 99,
+    "retailPrice": 35,
+    "resalePrice": 20,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=SMD+hotplate",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=SMD+hotplate"
+    }
+  },
+  {
+    "name": "Raspberry Pi Zero 2 W",
+    "shellCost": 100,
+    "retailPrice": 15,
+    "resalePrice": 12,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=raspberry+pi+zero+2+w",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=raspberry+pi+zero+2+w",
+      "manufacturer": "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/"
+    }
+  },
+  {
+    "name": "Digital Calipers",
+    "shellCost": 102,
+    "retailPrice": 20,
+    "resalePrice": 12,
+    "categories": ["hardware", "tools", "3d-printing-related"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=digital+calipers",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=digital+calipers"
+    }
+  },
+  {
+    "name": "Yubikey USB-C",
+    "shellCost": 110,
+    "retailPrice": 55,
+    "resalePrice": 35,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=yubikey+usb-c",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=yubikey+usb-c",
+      "manufacturer": "https://www.yubico.com/"
+    }
+  },
+  {
+    "name": "ESP32 Kit",
+    "shellCost": 125,
+    "retailPrice": 30,
+    "resalePrice": 18,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=ESP32+kit",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=ESP32+kit"
+    }
+  },
+  {
+    "name": "Proxmark 3 Easy",
+    "shellCost": 140,
+    "retailPrice": 70,
+    "resalePrice": 50,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=proxmark+3",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=proxmark+3"
+    }
+  },
+  {
+    "name": "Pinecil",
+    "shellCost": 144,
+    "retailPrice": 26,
+    "resalePrice": 18,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=pinecil+soldering+iron",
+      "manufacturer": "https://www.pine64.org/pinecil/"
+    }
+  },
+  {
+    "name": "USB C Cable + Adapter",
+    "shellCost": 145,
+    "retailPrice": 15,
+    "resalePrice": 8,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=usb+c+cable+adapter",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=usb+c+cable+adapter"
+    }
+  },
+  {
+    "name": "HackDucky",
+    "shellCost": 150,
+    "retailPrice": 50,
+    "resalePrice": 30,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=rubber+ducky",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=rubber+ducky"
+    }
+  },
+  {
+    "name": "Brother Label Maker",
+    "shellCost": 180,
+    "retailPrice": 40,
+    "resalePrice": 25,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=brother+label+maker",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=brother+label+maker",
+      "manufacturer": "https://www.brother-usa.com/"
+    }
+  },
+  {
+    "name": "Dupont Crimping Tool",
+    "shellCost": 237,
+    "retailPrice": 35,
+    "resalePrice": 20,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=dupont+crimping+tool",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=dupont+crimping+tool"
+    }
+  },
+  {
+    "name": "GL.iNet Router",
+    "shellCost": 250,
+    "retailPrice": 40,
+    "resalePrice": 25,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=gl.inet+router",
+      "manufacturer": "https://www.gl-inet.com/"
+    }
+  },
+  {
+    "name": "Icepi Zero",
+    "shellCost": 294,
+    "retailPrice": 45,
+    "resalePrice": 30,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=icepi+zero",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=icepi+zero"
+    }
+  },
+  {
+    "name": "Yubikey USB-A",
+    "shellCost": 300,
+    "retailPrice": 50,
+    "resalePrice": 32,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=yubikey+usb-a",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=yubikey+usb-a",
+      "manufacturer": "https://www.yubico.com/"
+    }
+  },
+  {
+    "name": "Baofeng UV-5R (2pk)",
+    "shellCost": 323,
+    "retailPrice": 50,
+    "resalePrice": 30,
+    "categories": ["hardware", "sound-related"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=baofeng+uv-5r",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=baofeng+uv-5r"
+    }
+  },
+  {
+    "name": "CMF Buds Pro 2",
+    "shellCost": 360,
+    "retailPrice": 59,
+    "resalePrice": 40,
+    "categories": ["hardware", "sound-related"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=cmf+buds+pro+2",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=cmf+buds+pro+2"
+    }
+  },
+  {
+    "name": "Creality Filament Dryer",
+    "shellCost": 400,
+    "retailPrice": 60,
+    "resalePrice": 35,
+    "categories": ["hardware", "3d-printing-related"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=creality+filament+dryer",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=creality+filament+dryer",
+      "manufacturer": "https://www.creality.com/"
+    }
+  },
+  {
+    "name": "7.5\" E-Ink Display",
+    "shellCost": 427,
+    "retailPrice": 75,
+    "resalePrice": 45,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=7.5+inch+e-ink+display",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=7.5+inch+e-ink+display"
+    }
+  },
+  {
+    "name": "LTT Screwdriver",
+    "shellCost": 450,
+    "retailPrice": 70,
+    "resalePrice": 55,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "manufacturer": "https://www.lttstore.com/"
+    }
+  },
+  {
+    "name": "Raspberry Pi 500",
+    "shellCost": 450,
+    "retailPrice": 90,
+    "resalePrice": 75,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=raspberry+pi+500",
+      "manufacturer": "https://www.raspberrypi.com/"
+    }
+  },
+  {
+    "name": "min(amame) Parts Kit",
+    "shellCost": 460,
+    "retailPrice": 80,
+    "resalePrice": 50,
+    "categories": ["hardware"],
+    "links": {}
+  },
+  {
+    "name": "Seagate 2TB HDD",
+    "shellCost": 542,
+    "retailPrice": 60,
+    "resalePrice": 40,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=seagate+2tb+hdd",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=seagate+2tb+hdd",
+      "manufacturer": "https://www.seagate.com/"
+    }
+  },
+  {
+    "name": "Logitech MX Master 3S",
+    "shellCost": 570,
+    "retailPrice": 100,
+    "resalePrice": 70,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=logitech+mx+master+3s",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=logitech+mx+master+3s",
+      "manufacturer": "https://www.logitech.com/"
+    }
+  },
+  {
+    "name": "1TB Portable SSD",
+    "shellCost": 599,
+    "retailPrice": 80,
+    "resalePrice": 55,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=1tb+portable+ssd",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=1tb+portable+ssd"
+    }
+  },
+  {
+    "name": "Thermal Imager",
+    "shellCost": 630,
+    "retailPrice": 150,
+    "resalePrice": 100,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=thermal+imager",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=thermal+imager"
+    }
+  },
+  {
+    "name": "Raspberry Pi 5",
+    "shellCost": 632,
+    "retailPrice": 80,
+    "resalePrice": 65,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=raspberry+pi+5",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=raspberry+pi+5",
+      "manufacturer": "https://www.raspberrypi.com/products/raspberry-pi-5/"
+    }
+  },
+  {
+    "name": "K4 Laser Engraver",
+    "shellCost": 690,
+    "retailPrice": 200,
+    "resalePrice": 130,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=k4+laser+engraver",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=k4+laser+engraver"
+    }
+  },
+  {
+    "name": "Polaroid Go Gen 2",
+    "shellCost": 720,
+    "retailPrice": 100,
+    "resalePrice": 70,
+    "categories": ["hardware", "fun"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=polaroid+go+gen+2",
+      "manufacturer": "https://www.polaroid.com/"
+    }
+  },
+  {
+    "name": "Logi G Pro X SL",
+    "shellCost": 750,
+    "retailPrice": 130,
+    "resalePrice": 90,
+    "categories": ["hardware", "sound-related"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=logitech+g+pro+x+superlight",
+      "manufacturer": "https://www.logitech.com/"
+    }
+  },
+  {
+    "name": "Glasgow Interface",
+    "shellCost": 762,
+    "retailPrice": 120,
+    "resalePrice": 90,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=glasgow+interface",
+      "manufacturer": "https://glasgow-embedded.org/"
+    }
+  },
+  {
+    "name": "XPPen Deco Pro MW",
+    "shellCost": 770,
+    "retailPrice": 130,
+    "resalePrice": 85,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=xppen+deco+pro+mw",
+      "manufacturer": "https://www.xp-pen.com/"
+    }
+  },
+  {
+    "name": "head(amame) Parts",
+    "shellCost": 775,
+    "retailPrice": 120,
+    "resalePrice": 75,
+    "categories": ["hardware"],
+    "links": {}
+  },
+  {
+    "name": "SlimeVR DIY Kit",
+    "shellCost": 899,
+    "retailPrice": 250,
+    "resalePrice": 175,
+    "categories": ["hardware", "fun"],
+    "links": {
+      "manufacturer": "https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker"
+    }
+  },
+  {
+    "name": "Raspberry Pi 500+",
+    "shellCost": 945,
+    "retailPrice": 120,
+    "resalePrice": 95,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=raspberry+pi+500",
+      "manufacturer": "https://www.raspberrypi.com/"
+    }
+  },
+  {
+    "name": "Flipper Zero",
+    "shellCost": 950,
+    "retailPrice": 169,
+    "resalePrice": 140,
+    "categories": ["hardware", "tools", "fun"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=flipper+zero",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=flipper+zero",
+      "manufacturer": "https://flipperzero.one/"
+    }
+  },
+  {
+    "name": "Bose QC 45",
+    "shellCost": 1020,
+    "retailPrice": 329,
+    "resalePrice": 200,
+    "categories": ["hardware", "sound-related"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=bose+qc+45",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=bose+qc+45",
+      "manufacturer": "https://www.bose.com/"
+    }
+  },
+  {
+    "name": "Cricut Explore 3",
+    "shellCost": 1135,
+    "retailPrice": 250,
+    "resalePrice": 160,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=cricut+explore+3",
+      "manufacturer": "https://cricut.com/"
+    }
+  },
+  {
+    "name": "Bambu A1 Mini",
+    "shellCost": 1150,
+    "retailPrice": 199,
+    "resalePrice": 160,
+    "categories": ["hardware", "3d-printing-related"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=bambu+a1+mini",
+      "manufacturer": "https://bambulab.com/en/a1-mini"
+    }
+  },
+  {
+    "name": "Playdate",
+    "shellCost": 1390,
+    "retailPrice": 199,
+    "resalePrice": 150,
+    "categories": ["hardware", "games", "fun"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=playdate+console",
+      "manufacturer": "https://play.date/"
+    }
+  },
+  {
+    "name": "100MHz Oscilloscope",
+    "shellCost": 1632,
+    "retailPrice": 400,
+    "resalePrice": 280,
+    "categories": ["hardware", "tools"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=100mhz+oscilloscope",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=100mhz+oscilloscope"
+    }
+  },
+  {
+    "name": "Bambu A1",
+    "shellCost": 1775,
+    "retailPrice": 329,
+    "resalePrice": 270,
+    "categories": ["hardware", "3d-printing-related"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=bambu+a1",
+      "manufacturer": "https://bambulab.com/en/a1"
+    }
+  },
+  {
+    "name": "Mullvad VPN 6mo",
+    "shellCost": 216,
+    "retailPrice": 30,
+    "resalePrice": 25,
+    "categories": ["credits"],
+    "links": {
+      "manufacturer": "https://mullvad.net/"
+    }
+  },
+  {
+    "name": "Clip Studio Paint PRO",
+    "shellCost": 255,
+    "retailPrice": 50,
+    "resalePrice": 35,
+    "categories": ["credits"],
+    "links": {
+      "manufacturer": "https://www.clipstudio.net/"
+    }
+  },
+  {
+    "name": "TryHackMe Premium 1y",
+    "shellCost": 413,
+    "retailPrice": 80,
+    "resalePrice": 60,
+    "categories": ["credits"],
+    "links": {
+      "manufacturer": "https://tryhackme.com/"
+    }
+  },
+  {
+    "name": "Nebula.tv Lifetime",
+    "shellCost": 1800,
+    "retailPrice": 300,
+    "resalePrice": 200,
+    "categories": ["credits"],
+    "links": {
+      "manufacturer": "https://nebula.tv/"
+    }
+  },
+  {
+    "name": "Speedcube",
+    "shellCost": 182,
+    "retailPrice": 20,
+    "resalePrice": 12,
+    "categories": ["fun"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=speedcube",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=speedcube"
+    }
+  },
+  {
+    "name": "Smolhaj",
+    "shellCost": 136,
+    "retailPrice": 25,
+    "resalePrice": 20,
+    "categories": ["fun"],
+    "links": {
+      "manufacturer": "https://www.ikea.com/"
+    }
+  },
+  {
+    "name": "Squishmallow",
+    "shellCost": 220,
+    "retailPrice": 25,
+    "resalePrice": 15,
+    "categories": ["fun"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=squishmallow",
+      "ebay": "https://www.ebay.com/sch/i.html?_nkw=squishmallow"
+    }
+  },
+  {
+    "name": "iPad + Apple Pencil",
+    "shellCost": 2035,
+    "retailPrice": 450,
+    "resalePrice": 350,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=ipad+apple+pencil",
+      "manufacturer": "https://www.apple.com/ipad/"
+    }
+  },
+  {
+    "name": "Nintendo Switch 2",
+    "shellCost": 2587,
+    "retailPrice": 400,
+    "resalePrice": 350,
+    "categories": ["hardware", "games"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=nintendo+switch",
+      "manufacturer": "https://www.nintendo.com/"
+    }
+  },
+  {
+    "name": "reMarkable 2",
+    "shellCost": 2625,
+    "retailPrice": 399,
+    "resalePrice": 300,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=remarkable+2",
+      "manufacturer": "https://remarkable.com/"
+    }
+  },
+  {
+    "name": "M4 Mac Mini",
+    "shellCost": 4050,
+    "retailPrice": 599,
+    "resalePrice": 500,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=mac+mini+m4",
+      "manufacturer": "https://www.apple.com/mac-mini/"
+    }
+  },
+  {
+    "name": "DJI Mini 4 Pro",
+    "shellCost": 4370,
+    "retailPrice": 759,
+    "resalePrice": 600,
+    "categories": ["hardware", "fun"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=dji+mini+4+pro",
+      "manufacturer": "https://www.dji.com/"
+    }
+  },
+  {
+    "name": "Framework Laptop 12",
+    "shellCost": 4499,
+    "retailPrice": 1049,
+    "resalePrice": 850,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=framework+laptop",
+      "manufacturer": "https://frame.work/"
+    }
+  },
+  {
+    "name": "Prusa Core One",
+    "shellCost": 4500,
+    "retailPrice": 1199,
+    "resalePrice": 950,
+    "categories": ["hardware", "3d-printing-related"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=prusa+core+one",
+      "manufacturer": "https://www.prusa3d.com/"
+    }
+  },
+  {
+    "name": "13\" M4 MacBook Air",
+    "shellCost": 4512,
+    "retailPrice": 1099,
+    "resalePrice": 900,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=macbook+air+m4",
+      "manufacturer": "https://www.apple.com/macbook-air/"
+    }
+  },
+  {
+    "name": "Prusa MK4S",
+    "shellCost": 5500,
+    "retailPrice": 1099,
+    "resalePrice": 900,
+    "categories": ["hardware", "3d-printing-related"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=prusa+mk4s",
+      "manufacturer": "https://www.prusa3d.com/"
+    }
+  },
+  {
+    "name": "MacBook Pro M4",
+    "shellCost": 7196,
+    "retailPrice": 1999,
+    "resalePrice": 1650,
+    "categories": ["hardware"],
+    "links": {
+      "amazon": "https://www.amazon.com/s?k=macbook+pro+m4",
+      "manufacturer": "https://www.apple.com/macbook-pro/"
+    }
+  },
+  {
+    "name": "Spider Badge",
+    "shellCost": 5,
+    "retailPrice": 0,
+    "resalePrice": 0,
+    "categories": ["fun"],
+    "links": {}
+  },
+  {
+    "name": "Custom CSS Badge",
+    "shellCost": 10,
+    "retailPrice": 0,
+    "resalePrice": 0,
+    "categories": ["fun"],
+    "links": {}
+  },
+  {
+    "name": "Summer of Making Blue",
+    "shellCost": 40,
+    "retailPrice": 0,
+    "resalePrice": 0,
+    "categories": ["fun"],
+    "links": {}
+  },
+  {
+    "name": "Sunglasses Badge",
+    "shellCost": 100,
+    "retailPrice": 0,
+    "resalePrice": 0,
+    "categories": ["fun"],
+    "links": {}
+  },
+  {
+    "name": "Pocket Watcher Badge",
+    "shellCost": 100,
+    "retailPrice": 0,
+    "resalePrice": 0,
+    "categories": ["fun"],
+    "links": {}
+  },
+  {
+    "name": "Offshore Bank Account",
+    "shellCost": 150,
+    "retailPrice": 0,
+    "resalePrice": 0,
+    "categories": ["fun"],
+    "links": {}
+  },
+  {
+    "name": "Gold Verified",
+    "shellCost": 160,
+    "retailPrice": 0,
+    "resalePrice": 0,
+    "categories": ["fun"],
+    "links": {}
+  },
+  {
+    "name": "I am Rich Badge",
+    "shellCost": 1000,
+    "retailPrice": 0,
+    "resalePrice": 0,
+    "categories": ["fun"],
+    "links": {}
+  }
+]
