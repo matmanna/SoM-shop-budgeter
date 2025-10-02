@@ -188,7 +188,7 @@ const ShopAnalysis = () => {
     <div className="min-h-screen bg-gradient-to-br from-amber-50 via-blue-50 to-sky-100 p-6">
       <div className="max-w-7xl mx-auto">
         {/* Countdown Timer */}
-        <div className="bg-gradient-to-r from-amber-100 to-sky-100 border-2 border-blue-300 px-6 py-3 mb-4 shadow-lg rounded-2xl">
+        <div className="bg-gradient-to-r from-amber-100 to-sky-100 border-2 border-blue-300 px-6 py-3 mb-4 shadow-lg rounded-3xl">
           <div className="flex items-center justify-center gap-3 text-gray-800">
             <Clock size={20} className="text-blue-600" />
             <span className="text-base font-semibold">🏝️ Shop Closes In:</span>
@@ -197,7 +197,7 @@ const ShopAnalysis = () => {
         </div>
 
         {/* Background Info Section */}
-        <div className="bg-gradient-to-r from-amber-50 to-blue-100 border-2 border-blue-200 px-6 py-4 mb-6 shadow-md rounded-2xl">
+        <div className="bg-gradient-to-r from-amber-50 to-blue-100 border-2 border-blue-200 px-6 py-4 mb-6 shadow-md rounded-3xl">
           <h2 className="text-xl font-bold text-blue-900 mb-2 flex items-center gap-2">
             🏝️ About This Tool
           </h2>
@@ -208,7 +208,7 @@ const ShopAnalysis = () => {
           </p>
         </div>
 
-        <div className="bg-gradient-to-br from-white to-amber-50 border-2 border-blue-300 shadow-lg p-8 mb-6 rounded-2xl">
+        <div className="bg-gradient-to-br from-white to-amber-50 border-2 border-blue-300 shadow-lg p-8 mb-6 rounded-3xl">
           <h1 className="text-3xl font-bold text-blue-900 mb-6 flex items-center gap-3">
             <DollarSign className="text-blue-600" size={32} />
             🏝️ SoM Shop Budgeter
@@ -221,19 +221,19 @@ const ShopAnalysis = () => {
                 type="number"
                 value={budget}
                 onChange={(e) => setBudget(Number(e.target.value))}
-                className="w-full bg-white border-2 border-blue-300 rounded-xl px-4 py-2 text-blue-900 text-lg font-semibold focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="w-full bg-white border-2 border-blue-300 rounded-2xl px-4 py-2 text-blue-900 text-lg font-semibold focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 placeholder="Enter your shell budget"
               />
             </div>
-            <div className="bg-gradient-to-br from-sky-100 to-blue-200 border-2 border-blue-400 px-5 py-2 rounded-xl shadow-md">
+            <div className="bg-gradient-to-br from-sky-100 to-blue-200 border-2 border-blue-400 px-5 py-2 rounded-2xl shadow-md">
               <div className="text-blue-800 text-xs font-bold uppercase tracking-wide">Items in Budget</div>
               <div className="text-blue-900 text-xl font-bold">{filteredItems.length}</div>
             </div>
-            <div className="bg-gradient-to-br from-amber-100 to-orange-200 border-2 border-orange-400 px-5 py-2 rounded-xl shadow-md">
+            <div className="bg-gradient-to-br from-amber-100 to-orange-200 border-2 border-orange-400 px-5 py-2 rounded-2xl shadow-md">
               <div className="text-orange-800 text-xs font-bold uppercase tracking-wide">Excluded</div>
               <div className="text-orange-900 text-xl font-bold">{excludedItems.size}</div>
             </div>
-            <div className="bg-gradient-to-br from-pink-100 to-pink-200 border-2 border-pink-400 px-5 py-2 rounded-xl shadow-md">
+            <div className="bg-gradient-to-br from-pink-100 to-pink-200 border-2 border-pink-400 px-5 py-2 rounded-2xl shadow-md">
               <div className="text-pink-800 text-xs font-bold uppercase tracking-wide">Wishlist</div>
               <div className="text-pink-900 text-xl font-bold">{wishlistItems.size}</div>
             </div>
@@ -247,7 +247,7 @@ const ShopAnalysis = () => {
                 <button
                   key={category}
                   onClick={() => toggleCategory(category)}
-                  className={`px-3 py-1.5 text-xs font-bold rounded-xl border-2 transition-all ${
+                  className={`px-3 py-1.5 text-xs font-bold rounded-2xl border-2 transition-all ${
                     selectedCategories.has(category)
                       ? 'bg-blue-600 border-blue-700 text-white shadow-lg scale-105'
                       : 'bg-white border-blue-300 text-blue-700 hover:bg-blue-50 hover:shadow-md'
@@ -259,7 +259,7 @@ const ShopAnalysis = () => {
               {selectedCategories.size > 0 && (
                 <button
                   onClick={() => setSelectedCategories(new Set())}
-                  className="px-3 py-1.5 text-xs font-bold bg-orange-500 border-2 border-orange-600 text-white hover:bg-orange-600 rounded-xl shadow-md"
+                  className="px-3 py-1.5 text-xs font-bold bg-orange-500 border-2 border-orange-600 text-white hover:bg-orange-600 rounded-2xl shadow-md"
                 >
                   Clear Filters
                 </button>
@@ -270,7 +270,7 @@ const ShopAnalysis = () => {
           {excludedItems.size > 0 && (
             <button
               onClick={() => setShowExcluded(!showExcluded)}
-              className="mt-6 bg-gradient-to-r from-amber-100 to-orange-100 hover:from-amber-200 hover:to-orange-200 px-4 py-2 border-2 border-orange-400 rounded-xl text-orange-800 transition-all flex items-center gap-2 font-bold shadow-md"
+              className="mt-6 bg-gradient-to-r from-amber-100 to-orange-100 hover:from-amber-200 hover:to-orange-200 px-4 py-2 border-2 border-orange-400 rounded-2xl text-orange-800 transition-all flex items-center gap-2 font-bold shadow-md"
             >
               <Filter size={16} />
               {showExcluded ? 'Show Available Items' : 'Show Excluded Items'}
@@ -279,13 +279,13 @@ const ShopAnalysis = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-4 mb-6">
-          <div className="bg-gradient-to-br from-green-50 to-emerald-100 border-2 border-green-400 p-6 shadow-lg rounded-2xl">
+          <div className="bg-gradient-to-br from-green-50 to-emerald-100 border-2 border-green-400 p-6 shadow-lg rounded-3xl">
             <h2 className="text-lg font-bold text-green-800 mb-4 flex items-center gap-2">
               🏆 Best Value Items
             </h2>
             <div className="space-y-2 max-h-80 overflow-y-auto">
               {getBestValue().map((item, idx) => (
-                <div key={idx} className="bg-white p-3 border-l-4 border-green-500 rounded-lg shadow-sm">
+                <div key={idx} className="bg-white p-3 border-l-4 border-green-500 rounded-xl shadow-sm">
                   <div className="flex justify-between items-center">
                     <span className="text-gray-900 text-sm font-semibold">{item.name}</span>
                     <span className="text-green-700 font-bold text-sm">{item.valueScore}%</span>
@@ -298,13 +298,13 @@ const ShopAnalysis = () => {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-orange-50 to-amber-100 border-2 border-orange-400 p-6 shadow-lg rounded-2xl">
+          <div className="bg-gradient-to-br from-orange-50 to-amber-100 border-2 border-orange-400 p-6 shadow-lg rounded-3xl">
             <h2 className="text-lg font-bold text-orange-800 mb-4 flex items-center gap-2">
               ⚠️ Worst Value Items
             </h2>
             <div className="space-y-2 max-h-80 overflow-y-auto">
               {getWorstValue().map((item, idx) => (
-                <div key={idx} className="bg-white p-3 border-l-4 border-orange-500 rounded-lg shadow-sm">
+                <div key={idx} className="bg-white p-3 border-l-4 border-orange-500 rounded-xl shadow-sm">
                   <div className="flex justify-between items-center">
                     <span className="text-gray-900 text-sm font-semibold">{item.name}</span>
                     <span className="text-orange-700 font-bold text-sm">{item.valueScore}%</span>
@@ -317,7 +317,7 @@ const ShopAnalysis = () => {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-pink-50 to-pink-100 border-2 border-pink-400 p-6 shadow-lg rounded-2xl">
+          <div className="bg-gradient-to-br from-pink-50 to-pink-100 border-2 border-pink-400 p-6 shadow-lg rounded-3xl">
             <h2 className="text-lg font-bold text-pink-800 mb-4 flex items-center gap-2">
               💖 Wishlist Recommendations
             </h2>
@@ -326,7 +326,7 @@ const ShopAnalysis = () => {
               <select
                 value={recommendationMetric}
                 onChange={(e) => setRecommendationMetric(e.target.value)}
-                className="w-full bg-white border-2 border-pink-300 rounded-lg px-3 py-1.5 text-pink-900 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500"
+                className="w-full bg-white border-2 border-pink-300 rounded-xl px-3 py-1.5 text-pink-900 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500"
               >
                 <option value="valueScore">Best Value %</option>
                 <option value="shellCost">Lowest Cost</option>
@@ -338,7 +338,7 @@ const ShopAnalysis = () => {
                 <p className="text-pink-600 text-sm font-medium">Add items to wishlist to see recommendations 💕</p>
               ) : (
                 getWishlistRecommendations().map((item, idx) => (
-                  <div key={idx} className="bg-white p-3 border-l-4 border-pink-500 rounded-lg shadow-sm">
+                  <div key={idx} className="bg-white p-3 border-l-4 border-pink-500 rounded-xl shadow-sm">
                     <div className="flex justify-between items-center">
                       <span className="text-gray-900 text-sm font-semibold">{item.name}</span>
                       <span className="text-pink-700 font-bold text-sm">{item.shellCost}🐚</span>
@@ -358,7 +358,7 @@ const ShopAnalysis = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-white to-blue-50 border-2 border-blue-300 shadow-lg overflow-hidden rounded-2xl">
+        <div className="bg-gradient-to-br from-white to-blue-50 border-2 border-blue-300 shadow-lg overflow-hidden rounded-3xl">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-gradient-to-r from-blue-100 to-sky-200 text-blue-900 border-b-2 border-blue-300">
@@ -405,7 +405,7 @@ const ShopAnalysis = () => {
                       <div className="flex gap-1">
                         <button
                           onClick={() => toggleExclude(item.name)}
-                          className={`p-1.5 transition-all border-2 rounded-lg shadow-sm ${
+                          className={`p-1.5 transition-all border-2 rounded-xl shadow-sm ${
                             excludedItems.has(item.name)
                               ? 'bg-green-100 hover:bg-green-200 text-green-800 border-green-400'
                               : 'bg-orange-100 hover:bg-orange-200 text-orange-800 border-orange-400'
@@ -416,7 +416,7 @@ const ShopAnalysis = () => {
                         </button>
                         <button
                           onClick={() => toggleWishlist(item.name)}
-                          className={`p-1.5 transition-all border-2 rounded-lg shadow-sm ${
+                          className={`p-1.5 transition-all border-2 rounded-xl shadow-sm ${
                             wishlistItems.has(item.name)
                               ? 'bg-pink-100 text-pink-800 border-pink-400'
                               : 'bg-white hover:bg-pink-100 text-gray-500 hover:text-pink-800 border-blue-300 hover:border-pink-400'
@@ -431,7 +431,7 @@ const ShopAnalysis = () => {
                     <td className="px-4 py-3">
                       <div className="flex flex-wrap gap-1">
                         {item.categories?.map((cat, i) => (
-                          <span key={i} className="text-xs bg-blue-100 text-blue-800 px-2 py-0.5 border border-blue-300 rounded-lg font-semibold">
+                          <span key={i} className="text-xs bg-blue-100 text-blue-800 px-2 py-0.5 border border-blue-300 rounded-xl font-semibold">
                             {cat}
                           </span>
                         ))}
@@ -477,7 +477,7 @@ const ShopAnalysis = () => {
           </div>
         </div>
 
-        <div className="mt-6 bg-gradient-to-br from-sky-100 to-blue-200 border-2 border-blue-400 p-6 shadow-lg rounded-2xl">
+        <div className="mt-6 bg-gradient-to-br from-sky-100 to-blue-200 border-2 border-blue-400 p-6 shadow-lg rounded-3xl">
           <h3 className="text-xl font-bold text-blue-900 mb-4 flex items-center gap-2">📊 How to Use This Tool</h3>
           <ul className="text-gray-800 space-y-2 text-sm leading-relaxed">
             <li><strong className="text-blue-900">🐚 Budget:</strong> Enter your shell count to filter items within your range</li>
