@@ -9,6 +9,8 @@ const ShopAnalysis = () => {
   const [wishlistItems, setWishlistItems] = useState(new Map()); // Changed to Map for quantities
   const [showExcluded, setShowExcluded] = useState(false);
   const [selectedCategories, setSelectedCategories] = useState(new Set());
+  const [categoryMode, setCategoryMode] = useState('include'); // 'include' or 'exclude'
+  const [statusFilter, setStatusFilter] = useState('all'); // 'all', 'excluded', 'wishlist', 'affordable', 'unaffordable'
   const [recommendationMetric, setRecommendationMetric] = useState('valueScore');
   const [timeRemaining, setTimeRemaining] = useState('');
 
@@ -78,11 +80,34 @@ const ShopAnalysis = () => {
     return processedItems.filter(item => {
       const withinBudget = item.shellCost <= budget;
       const notExcluded = !excludedItems.has(item.name);
-      const matchesCategory = selectedCategories.size === 0 || 
-        item.categories?.some(cat => selectedCategories.has(cat));
+      
+      // Category filtering with include/exclude mode
+      let matchesCategory = true;
+      if (selectedCategories.size > 0) {
+        const hasSelectedCategory = item.categories?.some(cat => selectedCategories.has(cat));
+        matchesCategory = categoryMode === 'include' ? hasSelectedCategory : !hasSelectedCategory;
+      }
+      
+      // Status filtering
+      let matchesStatus = true;
+      if (statusFilter === 'excluded') {
+        matchesStatus = excludedItems.has(item.name);
+      } else if (statusFilter === 'wishlist') {
+        matchesStatus = wishlistItems.has(item.name);
+      } else if (statusFilter === 'affordable') {
+        matchesStatus = item.shellCost <= budget;
+      } else if (statusFilter === 'unaffordable') {
+        matchesStatus = item.shellCost > budget;
+      }
+      
+      // When filtering by status, show all items matching that status regardless of budget/exclusion
+      if (statusFilter !== 'all') {
+        return matchesCategory && matchesStatus;
+      }
+      
       return withinBudget && notExcluded && matchesCategory;
     });
-  }, [processedItems, budget, excludedItems, selectedCategories]);
+  }, [processedItems, budget, excludedItems, selectedCategories, categoryMode, statusFilter, wishlistItems]);
 
   const sortedItems = useMemo(() => {
     let sortableItems = showExcluded 
@@ -248,27 +273,77 @@ const ShopAnalysis = () => {
                 placeholder="Enter your shell budget"
               />
             </div>
-            <div className="bg-gradient-to-br from-sky-100 to-blue-200 border-2 border-blue-400 px-5 py-2 rounded-2xl shadow-md">
+            <button
+              onClick={() => setStatusFilter(statusFilter === 'affordable' ? 'all' : 'affordable')}
+              className={`bg-gradient-to-br from-sky-100 to-blue-200 border-2 px-5 py-2 rounded-2xl shadow-md transition-all hover:scale-105 cursor-pointer ${
+                statusFilter === 'affordable' ? 'border-blue-600 ring-2 ring-blue-400' : 'border-blue-400 hover:shadow-lg'
+              }`}
+              title="Click to filter by affordable items"
+            >
               <div className="text-blue-800 text-xs font-bold uppercase tracking-wide">Items in Budget</div>
               <div className="text-blue-900 text-xl font-bold">{filteredItems.length}</div>
-            </div>
-            <div className="bg-gradient-to-br from-amber-100 to-orange-200 border-2 border-orange-400 px-5 py-2 rounded-2xl shadow-md">
+            </button>
+            <button
+              onClick={() => setStatusFilter(statusFilter === 'excluded' ? 'all' : 'excluded')}
+              className={`bg-gradient-to-br from-amber-100 to-orange-200 border-2 px-5 py-2 rounded-2xl shadow-md transition-all hover:scale-105 cursor-pointer ${
+                statusFilter === 'excluded' ? 'border-orange-600 ring-2 ring-orange-400' : 'border-orange-400 hover:shadow-lg'
+              }`}
+              title="Click to filter by excluded items"
+            >
               <div className="text-orange-800 text-xs font-bold uppercase tracking-wide">Excluded</div>
               <div className="text-orange-900 text-xl font-bold">{excludedItems.size}</div>
-            </div>
-            <div className="bg-gradient-to-br from-pink-100 to-pink-200 border-2 border-pink-400 px-5 py-2 rounded-2xl shadow-md">
+            </button>
+            <button
+              onClick={() => setStatusFilter(statusFilter === 'wishlist' ? 'all' : 'wishlist')}
+              className={`bg-gradient-to-br from-pink-100 to-pink-200 border-2 px-5 py-2 rounded-2xl shadow-md transition-all hover:scale-105 cursor-pointer ${
+                statusFilter === 'wishlist' ? 'border-pink-600 ring-2 ring-pink-400' : 'border-pink-400 hover:shadow-lg'
+              }`}
+              title="Click to filter by wishlist items"
+            >
               <div className="text-pink-800 text-xs font-bold uppercase tracking-wide">Wishlist</div>
               <div className="text-pink-900 text-xl font-bold">{wishlistItems.size}</div>
-            </div>
-            <div className="bg-gradient-to-br from-red-100 to-red-200 border-2 border-red-400 px-5 py-2 rounded-2xl shadow-md">
+            </button>
+            <button
+              onClick={() => setStatusFilter(statusFilter === 'unaffordable' ? 'all' : 'unaffordable')}
+              className={`bg-gradient-to-br from-red-100 to-red-200 border-2 px-5 py-2 rounded-2xl shadow-md transition-all hover:scale-105 cursor-pointer ${
+                statusFilter === 'unaffordable' ? 'border-red-600 ring-2 ring-red-400' : 'border-red-400 hover:shadow-lg'
+              }`}
+              title="Click to filter by unaffordable items"
+            >
               <div className="text-red-800 text-xs font-bold uppercase tracking-wide">Can't Afford</div>
               <div className="text-red-900 text-xl font-bold">{cantAffordCount}</div>
-            </div>
+            </button>
           </div>
 
           {/* Category Filters */}
           <div className="mt-6">
-            <label className="text-blue-900 text-sm mb-2 block font-semibold">🏷️ Filter by Categories:</label>
+            <div className="flex items-center gap-3 mb-2">
+              <label className="text-blue-900 text-sm font-semibold">🏷️ Filter by Categories:</label>
+              <div className="flex gap-2">
+                <button
+                  onClick={() => setCategoryMode('include')}
+                  className={`px-3 py-1 text-xs font-bold rounded-xl transition-all ${
+                    categoryMode === 'include'
+                      ? 'bg-green-600 text-white shadow-md'
+                      : 'bg-white border border-green-300 text-green-700 hover:bg-green-50'
+                  }`}
+                  title="Include selected categories"
+                >
+                  Include
+                </button>
+                <button
+                  onClick={() => setCategoryMode('exclude')}
+                  className={`px-3 py-1 text-xs font-bold rounded-xl transition-all ${
+                    categoryMode === 'exclude'
+                      ? 'bg-red-600 text-white shadow-md'
+                      : 'bg-white border border-red-300 text-red-700 hover:bg-red-50'
+                  }`}
+                  title="Exclude selected categories"
+                >
+                  Exclude
+                </button>
+              </div>
+            </div>
             <div className="flex flex-wrap gap-2">
               {allCategories.map(category => (
                 <button
@@ -276,7 +351,9 @@ const ShopAnalysis = () => {
                   onClick={() => toggleCategory(category)}
                   className={`px-3 py-1.5 text-xs font-bold rounded-2xl border-2 transition-all ${
                     selectedCategories.has(category)
-                      ? 'bg-blue-600 border-blue-700 text-white shadow-lg scale-105'
+                      ? (categoryMode === 'include' 
+                          ? 'bg-blue-600 border-blue-700 text-white shadow-lg scale-105'
+                          : 'bg-red-600 border-red-700 text-white shadow-lg scale-105')
                       : 'bg-white border-blue-300 text-blue-700 hover:bg-blue-50 hover:shadow-md'
                   }`}
                 >
@@ -546,27 +623,27 @@ const ShopAnalysis = () => {
         </div>
       </div>
 
-      {/* Floating Social Buttons */}
+      {/* Floating Social Buttons - GitHub Style */}
       <div className="fixed bottom-6 right-6 flex flex-col gap-3 z-50">
         <a
           href="https://github.com/matmanna/SoM-shop-budgeter"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-gray-900 px-4 py-3 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-105 font-bold text-sm border-2 border-yellow-600"
+          className="flex items-center gap-2 bg-[#24292e] hover:bg-[#1b1f23] text-white px-4 py-2 rounded-lg shadow-lg hover:shadow-xl transition-all font-semibold text-sm border border-[#1b1f23]"
           title="Star this repository on GitHub"
         >
-          <Star size={18} fill="currentColor" />
-          <span>Star Repo</span>
+          <Star size={16} />
+          <span>Star</span>
         </a>
         <a
           href="https://github.com/matmanna"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-4 py-3 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-105 font-bold text-sm border-2 border-blue-700"
+          className="flex items-center gap-2 bg-white hover:bg-gray-50 text-[#24292e] px-4 py-2 rounded-lg shadow-lg hover:shadow-xl transition-all font-semibold text-sm border border-gray-300"
           title="Follow matmanna on GitHub"
         >
-          <Github size={18} />
-          <span>Follow @matmanna</span>
+          <Github size={16} />
+          <span>Follow</span>
         </a>
       </div>
     </div>
