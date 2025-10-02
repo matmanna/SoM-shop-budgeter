@@ -1,12 +1,12 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { ArrowUpDown, DollarSign, X, Filter, Heart, Clock, ExternalLink } from 'lucide-react';
+import { ArrowUpDown, DollarSign, X, Filter, Heart, Clock, ExternalLink, Github, Star } from 'lucide-react';
 import itemsData from './items.json';
 
 const ShopAnalysis = () => {
   const [sortConfig, setSortConfig] = useState({ key: 'shellCost', direction: 'asc' });
   const [budget, setBudget] = useState(1800);
   const [excludedItems, setExcludedItems] = useState(new Set());
-  const [wishlistItems, setWishlistItems] = useState(new Set());
+  const [wishlistItems, setWishlistItems] = useState(new Map()); // Changed to Map for quantities
   const [showExcluded, setShowExcluded] = useState(false);
   const [selectedCategories, setSelectedCategories] = useState(new Set());
   const [recommendationMetric, setRecommendationMetric] = useState('valueScore');
@@ -16,7 +16,8 @@ const ShopAnalysis = () => {
   useEffect(() => {
     const saved = localStorage.getItem('wishlistItems');
     if (saved) {
-      setWishlistItems(new Set(JSON.parse(saved)));
+      const parsed = JSON.parse(saved);
+      setWishlistItems(new Map(parsed));
     }
   }, []);
 
@@ -119,11 +120,21 @@ const ShopAnalysis = () => {
   };
 
   const toggleWishlist = (itemName) => {
-    const newWishlist = new Set(wishlistItems);
+    const newWishlist = new Map(wishlistItems);
     if (newWishlist.has(itemName)) {
       newWishlist.delete(itemName);
     } else {
-      newWishlist.add(itemName);
+      newWishlist.set(itemName, 1); // Default quantity is 1
+    }
+    setWishlistItems(newWishlist);
+  };
+
+  const updateWishlistQuantity = (itemName, quantity) => {
+    const newWishlist = new Map(wishlistItems);
+    if (quantity <= 0) {
+      newWishlist.delete(itemName);
+    } else {
+      newWishlist.set(itemName, quantity);
     }
     setWishlistItems(newWishlist);
   };
@@ -152,9 +163,13 @@ const ShopAnalysis = () => {
       .slice(0, 8);
   };
 
-  // Wishlist recommendation algorithm
+  // Wishlist recommendation algorithm with quantities
   const getWishlistRecommendations = () => {
-    const wishlist = processedItems.filter(item => wishlistItems.has(item.name));
+    const wishlist = processedItems.filter(item => wishlistItems.has(item.name))
+      .map(item => ({
+        ...item,
+        quantity: wishlistItems.get(item.name) || 1
+      }));
     
     if (wishlist.length === 0) return [];
 
@@ -170,19 +185,27 @@ const ShopAnalysis = () => {
       return 0;
     });
 
-    // Greedy knapsack approach to fit items within budget
+    // Greedy knapsack approach to fit items within budget considering quantities
     let totalCost = 0;
     const recommendations = [];
 
     for (const item of sorted) {
-      if (totalCost + item.shellCost <= budget) {
+      const itemTotalCost = item.shellCost * item.quantity;
+      if (totalCost + itemTotalCost <= budget) {
         recommendations.push(item);
-        totalCost += item.shellCost;
+        totalCost += itemTotalCost;
       }
     }
 
     return recommendations;
   };
+
+  // Calculate can't afford count
+  const cantAffordCount = useMemo(() => {
+    return processedItems.filter(item => 
+      item.shellCost > budget && !excludedItems.has(item.name)
+    ).length;
+  }, [processedItems, budget, excludedItems]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 via-blue-50 to-sky-100 p-6">
@@ -236,6 +259,10 @@ const ShopAnalysis = () => {
             <div className="bg-gradient-to-br from-pink-100 to-pink-200 border-2 border-pink-400 px-5 py-2 rounded-2xl shadow-md">
               <div className="text-pink-800 text-xs font-bold uppercase tracking-wide">Wishlist</div>
               <div className="text-pink-900 text-xl font-bold">{wishlistItems.size}</div>
+            </div>
+            <div className="bg-gradient-to-br from-red-100 to-red-200 border-2 border-red-400 px-5 py-2 rounded-2xl shadow-md">
+              <div className="text-red-800 text-xs font-bold uppercase tracking-wide">Can't Afford</div>
+              <div className="text-red-900 text-xl font-bold">{cantAffordCount}</div>
             </div>
           </div>
 
@@ -339,19 +366,29 @@ const ShopAnalysis = () => {
               ) : (
                 getWishlistRecommendations().map((item, idx) => (
                   <div key={idx} className="bg-white p-3 border-l-4 border-pink-500 rounded-xl shadow-sm">
-                    <div className="flex justify-between items-center">
-                      <span className="text-gray-900 text-sm font-semibold">{item.name}</span>
-                      <span className="text-pink-700 font-bold text-sm">{item.shellCost}🐚</span>
+                    <div className="flex justify-between items-center gap-2">
+                      <span className="text-gray-900 text-sm font-semibold flex-1">{item.name}</span>
+                      <div className="flex items-center gap-2">
+                        <input
+                          type="number"
+                          min="1"
+                          max="99"
+                          value={item.quantity}
+                          onChange={(e) => updateWishlistQuantity(item.name, parseInt(e.target.value) || 1)}
+                          className="w-12 px-1 py-0.5 text-xs border border-pink-300 rounded text-center font-semibold"
+                        />
+                        <span className="text-pink-700 font-bold text-sm whitespace-nowrap">{item.shellCost * item.quantity}🐚</span>
+                      </div>
                     </div>
                     <div className="text-xs text-gray-600 mt-1">
-                      Value: {item.valueScore}% | ${item.retailPrice}
+                      {item.quantity > 1 ? `${item.quantity}x ${item.shellCost}🐚 each | ` : ''}Value: {item.valueScore}% | ${item.retailPrice}
                     </div>
                   </div>
                 ))
               )}
               {wishlistItems.size > 0 && (
                 <div className="mt-3 pt-3 border-t-2 border-pink-300 text-xs text-pink-900 font-bold">
-                  Total: {getWishlistRecommendations().reduce((sum, item) => sum + item.shellCost, 0)} shells 🐚
+                  Total: {getWishlistRecommendations().reduce((sum, item) => sum + (item.shellCost * item.quantity), 0)} shells 🐚
                 </div>
               )}
             </div>
@@ -482,7 +519,7 @@ const ShopAnalysis = () => {
           <ul className="text-gray-800 space-y-2 text-sm leading-relaxed">
             <li><strong className="text-blue-900">🐚 Budget:</strong> Enter your shell count to filter items within your range</li>
             <li><strong className="text-blue-900">❌ Exclude Items:</strong> Click the X button to exclude items you're not interested in</li>
-            <li><strong className="text-blue-900">💖 Wishlist:</strong> Click the ❤️ button to add items to your wishlist and get optimized recommendations</li>
+            <li><strong className="text-blue-900">💖 Wishlist:</strong> Click the ❤️ button to add items to your wishlist and get optimized recommendations. Adjust quantities for each item!</li>
             <li><strong className="text-blue-900">🏷️ Categories:</strong> Filter items by category tags (hardware, games, tools, etc.)</li>
             <li><strong className="text-blue-900">🔗 Retail Links:</strong> Click link icons to view items on Amazon, eBay, or manufacturer sites</li>
             <li><strong className="text-blue-900">📊 Shell:Retail Ratio:</strong> Lower is better - means fewer shells per dollar of retail value</li>
@@ -490,6 +527,30 @@ const ShopAnalysis = () => {
             <li><strong className="text-blue-900">🎨 Color Coding:</strong> Green (50%+) = Great value | Amber (30-49%) = Fair | Orange (&lt;30%) = Consider carefully</li>
           </ul>
         </div>
+      </div>
+
+      {/* Floating Social Buttons */}
+      <div className="fixed bottom-6 right-6 flex flex-col gap-3 z-50">
+        <a
+          href="https://github.com/matmanna/SoM-shop-budgeter"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-gray-900 px-4 py-3 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-105 font-bold text-sm border-2 border-yellow-600"
+          title="Star this repository on GitHub"
+        >
+          <Star size={18} fill="currentColor" />
+          <span>Star Repo</span>
+        </a>
+        <a
+          href="https://github.com/matmanna"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-4 py-3 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-105 font-bold text-sm border-2 border-blue-700"
+          title="Follow matmanna on GitHub"
+        >
+          <Github size={18} />
+          <span>Follow @matmanna</span>
+        </a>
       </div>
     </div>
   );
