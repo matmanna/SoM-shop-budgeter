@@ -1,6 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { ArrowUpDown, DollarSign, X, Filter, Heart, Clock, ExternalLink, Github, Star } from 'lucide-react';
+import { ArrowUpDown, DollarSign, X, Filter, Heart, Clock, ExternalLink, Github, Star, ChevronDown } from 'lucide-react';
 import itemsData from './items.json';
+import posthog from 'posthog-js';
 
 const ShopAnalysis = () => {
   const [sortConfig, setSortConfig] = useState({ key: 'shellCost', direction: 'asc' });
@@ -13,6 +14,22 @@ const ShopAnalysis = () => {
   const [statusFilter, setStatusFilter] = useState('all'); // 'all', 'excluded', 'wishlist', 'affordable', 'unaffordable'
   const [recommendationMetric, setRecommendationMetric] = useState('valueScore');
   const [timeRemaining, setTimeRemaining] = useState('');
+  const [isHowToOpen, setIsHowToOpen] = useState(false); // Accordion state for How To section
+
+  // Initialize PostHog
+  useEffect(() => {
+    const posthogKey = import.meta.env.VITE_POSTHOG_KEY;
+    const posthogHost = import.meta.env.VITE_POSTHOG_HOST || 'https://us.i.posthog.com';
+    
+    if (posthogKey) {
+      posthog.init(posthogKey, {
+        api_host: posthogHost,
+        person_profiles: 'identified_only',
+        capture_pageview: true,
+        capture_pageleave: true,
+      });
+    }
+  }, []);
 
   // Load wishlist from localStorage on mount
   useEffect(() => {
@@ -245,7 +262,7 @@ const ShopAnalysis = () => {
         </div>
 
         {/* Background Info Section */}
-        <div className="bg-gradient-to-r from-amber-50 to-blue-100 border-2 border-blue-200 px-6 py-4 mb-6 shadow-md rounded-3xl">
+        <div className="bg-gradient-to-r from-amber-50 to-blue-100 border-2 border-blue-200 px-6 py-4 mb-4 shadow-md rounded-3xl">
           <h2 className="text-xl font-bold text-blue-900 mb-2 flex items-center gap-2">
             🏝️ About This Tool
           </h2>
@@ -254,6 +271,36 @@ const ShopAnalysis = () => {
             Look no further than the shop budgeter! Browse items in your price range, their real world : shell value ratios, 
             resale values, and more! Exclude things you don't want and build your perfect wishlist! 🐚✨
           </p>
+        </div>
+
+        {/* How to Use Section - Collapsible */}
+        <div className="bg-gradient-to-br from-sky-100 to-blue-200 border-2 border-blue-400 mb-6 shadow-lg rounded-3xl overflow-hidden">
+          <button
+            onClick={() => setIsHowToOpen(!isHowToOpen)}
+            className="w-full px-6 py-4 flex items-center justify-between hover:bg-blue-100 transition-colors"
+          >
+            <h3 className="text-xl font-bold text-blue-900 flex items-center gap-2">
+              📊 How to Use This Tool
+            </h3>
+            <ChevronDown 
+              size={24} 
+              className={`text-blue-900 transition-transform ${isHowToOpen ? 'rotate-180' : ''}`}
+            />
+          </button>
+          {isHowToOpen && (
+            <div className="px-6 pb-6">
+              <ul className="text-gray-800 space-y-2 text-sm leading-relaxed">
+                <li><strong className="text-blue-900">🐚 Budget:</strong> Enter your shell count to filter items within your range</li>
+                <li><strong className="text-blue-900">❌ Exclude Items:</strong> Click the X button to exclude items you're not interested in</li>
+                <li><strong className="text-blue-900">💖 Wishlist:</strong> Click the ❤️ button to add items to your wishlist and get optimized recommendations. Adjust quantities for each item!</li>
+                <li><strong className="text-blue-900">🏷️ Categories:</strong> Filter items by category tags (hardware, games, tools, etc.)</li>
+                <li><strong className="text-blue-900">🔗 Retail Links:</strong> Click link icons to view items on Amazon, eBay, or manufacturer sites</li>
+                <li><strong className="text-blue-900">📊 Shell:Retail Ratio:</strong> Lower is better - means fewer shells per dollar of retail value</li>
+                <li><strong className="text-blue-900">💯 Value %:</strong> Higher is better - shows retail value as % of shell cost</li>
+                <li><strong className="text-blue-900">🎨 Color Coding:</strong> Green (50%+) = Great value | Amber (30-49%) = Fair | Orange (&lt;30%) = Consider carefully</li>
+              </ul>
+            </div>
+          )}
         </div>
 
         <div className="bg-gradient-to-br from-white to-amber-50 border-2 border-blue-300 shadow-lg p-8 mb-6 rounded-3xl">
@@ -608,19 +655,7 @@ const ShopAnalysis = () => {
           </div>
         </div>
 
-        <div className="mt-6 bg-gradient-to-br from-sky-100 to-blue-200 border-2 border-blue-400 p-6 shadow-lg rounded-3xl">
-          <h3 className="text-xl font-bold text-blue-900 mb-4 flex items-center gap-2">📊 How to Use This Tool</h3>
-          <ul className="text-gray-800 space-y-2 text-sm leading-relaxed">
-            <li><strong className="text-blue-900">🐚 Budget:</strong> Enter your shell count to filter items within your range</li>
-            <li><strong className="text-blue-900">❌ Exclude Items:</strong> Click the X button to exclude items you're not interested in</li>
-            <li><strong className="text-blue-900">💖 Wishlist:</strong> Click the ❤️ button to add items to your wishlist and get optimized recommendations. Adjust quantities for each item!</li>
-            <li><strong className="text-blue-900">🏷️ Categories:</strong> Filter items by category tags (hardware, games, tools, etc.)</li>
-            <li><strong className="text-blue-900">🔗 Retail Links:</strong> Click link icons to view items on Amazon, eBay, or manufacturer sites</li>
-            <li><strong className="text-blue-900">📊 Shell:Retail Ratio:</strong> Lower is better - means fewer shells per dollar of retail value</li>
-            <li><strong className="text-blue-900">💯 Value %:</strong> Higher is better - shows retail value as % of shell cost</li>
-            <li><strong className="text-blue-900">🎨 Color Coding:</strong> Green (50%+) = Great value | Amber (30-49%) = Fair | Orange (&lt;30%) = Consider carefully</li>
-          </ul>
-        </div>
+
       </div>
 
       {/* Floating Social Buttons - GitHub Style */}
