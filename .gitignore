@@ -11,5 +11,6 @@ dist
 # Screenshots (but not OG images)
 *.png
 !public/*.png
+!public/images/*.png
 
 shop.html
