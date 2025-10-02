@@ -73,6 +73,11 @@ npm run dev
 npm run build
 ```
 
+6. (Optional) Generate social media images:
+```bash
+npm run generate-og
+```
+
 ## 🔧 Configuration
 
 ### Environment Variables
@@ -85,6 +90,19 @@ npm run build
 ### Deployment
 
 The app is optimized for deployment on Netlify, Vercel, or any static hosting platform. A `netlify.toml` configuration is included.
+
+### Social Media Images
+
+The project includes automatically generated Open Graph and Twitter card images for better social media sharing:
+- **OG Image**: 1200x630px for Facebook, LinkedIn, etc.
+- **Twitter Card**: 1200x600px optimized for Twitter
+
+To regenerate these images:
+```bash
+npm run generate-og
+```
+
+Images are stored in the `public/` directory and automatically included in the HTML meta tags.
 
 ## 📸 Screenshots
 
@@ -109,6 +127,7 @@ The app is optimized for deployment on Netlify, Vercel, or any static hosting pl
 - **Icons**: Lucide React
 - **Analytics**: PostHog (optional)
 - **State Management**: React Hooks with localStorage persistence
+- **Social Images**: Canvas for OG/Twitter card generation
 
 ## 📝 Development Notes
 
