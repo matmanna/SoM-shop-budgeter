@@ -5,7 +5,7 @@ import posthog from 'posthog-js';
 
 const ShopAnalysis = () => {
   const [sortConfig, setSortConfig] = useState({ key: 'shellCost', direction: 'asc' });
-  const [budget, setBudget] = useState(1800);
+  const [budget, setBudget] = useState(5000);
   const [excludedItems, setExcludedItems] = useState(new Set());
   const [wishlistItems, setWishlistItems] = useState(new Map()); // Changed to Map for quantities
   const [showExcluded, setShowExcluded] = useState(false);

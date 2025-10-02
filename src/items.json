@@ -11,7 +11,7 @@
       "amazon": "https://www.amazon.com/s?k=stickers",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=stickers"
     },
-    "image": "/images/pile-of-stickers.png",
+    "image": "/images/pile_of_stickers.png",
     "stock": null
   },
   {
@@ -26,7 +26,7 @@
       "amazon": "https://www.amazon.com/s?k=64gb+usb+drive",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=64gb+usb+drive"
     },
-    "image": "/images/64gb-usb-drive.png",
+    "image": "/images/2025_06_17_10l_Kleki-removebg-preview(1).png",
     "stock": null
   },
   {
@@ -41,7 +41,7 @@
       "amazon": "https://www.amazon.com/s?k=rubber+duck",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=rubber+duck"
     },
-    "image": "/images/rubber-duck.png",
+    "image": "/images/2025_08_10_108_Kleki.png",
     "stock": null
   },
   {
@@ -56,7 +56,7 @@
       "amazon": "https://www.amazon.com/s?k=128gb+usb+drive",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=128gb+usb+drive"
     },
-    "image": "/images/128gb-usb-drive.png",
+    "image": "/images/image-removebg-preview(9)(1).png",
     "stock": null
   },
   {
@@ -71,7 +71,7 @@
       "amazon": "https://www.amazon.com/s?k=256gb+usb+drive",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=256gb+usb+drive"
     },
-    "image": "/images/256gb-usb-drive.png",
+    "image": "/images/image-removebg-preview(8)(1).png",
     "stock": null
   },
   {
@@ -86,7 +86,7 @@
       "amazon": "https://www.amazon.com/s?k=notebook",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=notebook"
     },
-    "image": "/images/github-branded-notebook.png",
+    "image": "/images/2025_08_10_0z3_Kleki.png",
     "stock": null
   },
   {
@@ -101,7 +101,7 @@
       "amazon": "https://www.amazon.com/s?k=256gb+microsd",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=256gb+microsd"
     },
-    "image": "/images/256gb-microsd-adapter.png",
+    "image": "/images/2025_06_17_0yl_Kleki(1).png",
     "stock": null
   },
   {
@@ -116,7 +116,7 @@
       "amazon": "https://www.amazon.com/s?k=512gb+microsd",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=512gb+microsd"
     },
-    "image": "/images/512gb-microsd-card.png",
+    "image": "/images/2025_08_03_04k_Kleki.png",
     "stock": null
   },
   {
@@ -128,7 +128,7 @@
       "grants"
     ],
     "links": {},
-    "image": "/images/ai-usage-credits.png",
+    "image": "/images/2025_07_22_0s1_Kleki(2).png",
     "stock": null
   },
   {
@@ -142,7 +142,7 @@
     "links": {
       "manufacturer": "https://www.cloudflare.com/"
     },
-    "image": "/images/cloudflare-credits.png",
+    "image": "/images/2025_07_22_0ow_Kleki.png",
     "stock": null
   },
   {
@@ -157,7 +157,7 @@
     "links": {
       "manufacturer": "https://jlcpcb.com/"
     },
-    "image": "/images/jlcpcb-grant.png",
+    "image": "/images/2025_08_09_0qy_Kleki(1).png",
     "stock": null
   },
   {
@@ -169,7 +169,7 @@
       "grants"
     ],
     "links": {},
-    "image": "/images/domain-grant.png",
+    "image": "/images/2025_06_16_0qu_Kleki(1).png",
     "stock": null
   },
   {
@@ -183,7 +183,7 @@
     "links": {
       "manufacturer": "https://nebula.tv/"
     },
-    "image": "/images/nebulatv-1-month.png",
+    "image": "/images/2025_06_26_0kf_Kleki(1).png",
     "stock": null
   },
   {
@@ -198,7 +198,7 @@
     "links": {
       "manufacturer": "https://www.ifixit.com/"
     },
-    "image": "/images/ifixit-credits.png",
+    "image": "/images/2025_08_07_0zh_Kleki.png",
     "stock": null
   },
   {
@@ -210,7 +210,7 @@
       "grants"
     ],
     "links": {},
-    "image": "/images/server-hosting-credits.png",
+    "image": "/images/2025_07_22_0xq_Kleki(1).png",
     "stock": null
   },
   {
@@ -224,7 +224,7 @@
     "links": {
       "manufacturer": "https://signal.org/"
     },
-    "image": "/images/10-to-signal.png",
+    "image": "/images/2025_08_20_0t9_Kleki.png",
     "stock": null
   },
   {
@@ -238,7 +238,7 @@
     "links": {
       "manufacturer": "https://purelymail.com/"
     },
-    "image": "/images/purelymail-credits.png",
+    "image": "/images/2025_08_02_0u0_Kleki(1).png",
     "stock": null
   },
   {
@@ -253,7 +253,7 @@
     "links": {
       "manufacturer": "https://bambulab.com/"
     },
-    "image": "/images/bambu-lab-credits.png",
+    "image": "/images/2025_07_22_0sx_Kleki(1).png",
     "stock": null
   },
   {
@@ -268,7 +268,7 @@
     "links": {
       "manufacturer": "https://www.digikey.com/"
     },
-    "image": "/images/digikeylcsc-credit.png",
+    "image": "/images/2025_07_22_0ou_Kleki(1).png",
     "stock": null
   },
   {
@@ -297,7 +297,7 @@
     "links": {
       "manufacturer": "https://dbrand.com/"
     },
-    "image": "/images/dbrand-credits.png",
+    "image": "/images/2025_08_14_0o0_Kleki(1).png",
     "stock": null
   },
   {
@@ -326,7 +326,7 @@
     "links": {
       "manufacturer": "https://www.keychron.com/"
     },
-    "image": "/images/keychron-credits.png",
+    "image": "/images/2025_08_18_0kp_Kleki.png",
     "stock": null
   },
   {
@@ -353,7 +353,7 @@
       "amazon": "https://www.amazon.com/s?k=TIS-100",
       "manufacturer": "https://store.steampowered.com/app/370360/TIS100/"
     },
-    "image": "/images/tis-100.png",
+    "image": "/images/2025_06_17_0i4_Kleki(1).png",
     "stock": null
   },
   {
@@ -367,7 +367,7 @@
     "links": {
       "manufacturer": "https://store.steampowered.com/app/322170/Geometry_Dash/"
     },
-    "image": "/images/geometry-dash.png",
+    "image": "/images/capsule_616x353.jpg",
     "stock": null
   },
   {
@@ -381,7 +381,7 @@
     "links": {
       "manufacturer": "https://store.steampowered.com/app/2162800/shapez_2/"
     },
-    "image": "/images/shapez-2.png",
+    "image": "/images/2025_06_30_0of_Kleki(1).png",
     "stock": null
   },
   {
@@ -395,7 +395,7 @@
     "links": {
       "manufacturer": "https://store.steampowered.com/app/427520/Factorio/"
     },
-    "image": "/images/factorio.png",
+    "image": "/images/2025_06_16_11i_Kleki(1)(1).png",
     "stock": null
   },
   {
@@ -411,7 +411,7 @@
       "amazon": "https://www.amazon.com/s?k=logic+analyzer",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=logic+analyzer"
     },
-    "image": "/images/logic-analyzer.png",
+    "image": "/images/2025_06_17_0zp_Kleki(1).png",
     "stock": null
   },
   {
@@ -428,7 +428,7 @@
       "amazon": "https://www.amazon.com/s?k=hot+glue+gun",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=hot+glue+gun"
     },
-    "image": "/images/hot-glue-gun.png",
+    "image": "/images/2025_06_15_0z5_Kleki(1).png",
     "stock": null
   },
   {
@@ -458,7 +458,7 @@
       "amazon": "https://www.amazon.com/s?k=electronic+fidget",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=electronic+fidget"
     },
-    "image": "/images/e-fidget.png",
+    "image": "/images/2025_07_22_0hy_Kleki(1).png",
     "stock": null
   },
   {
@@ -474,7 +474,7 @@
       "amazon": "https://www.amazon.com/s?k=allen+wrench+set",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=allen+wrench+set"
     },
-    "image": "/images/allen-wrench.png",
+    "image": "/images/image-removebg-preview(1).png",
     "stock": null
   },
   {
@@ -490,7 +490,7 @@
       "amazon": "https://www.amazon.com/s?k=CH341A+programmer",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=CH341A+programmer"
     },
-    "image": "/images/ch341a-programmer.png",
+    "image": "/images/ch341.png",
     "stock": null
   },
   {
@@ -506,7 +506,7 @@
       "amazon": "https://www.amazon.com/s?k=SMD+hotplate",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=SMD+hotplate"
     },
-    "image": "/images/smd-hotplate.png",
+    "image": "/images/hotplate.avif",
     "stock": null
   },
   {
@@ -522,7 +522,7 @@
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=raspberry+pi+zero+2+w",
       "manufacturer": "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/"
     },
-    "image": "/images/raspberry-pi-zero-2-w.png",
+    "image": "/images/2025_06_17_0z6_Kleki(1).png",
     "stock": null
   },
   {
@@ -539,7 +539,7 @@
       "amazon": "https://www.amazon.com/s?k=digital+calipers",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=digital+calipers"
     },
-    "image": "/images/digital-calipers.png",
+    "image": "/images/2025_06_17_0zd_Kleki(1).png",
     "stock": null
   },
   {
@@ -557,7 +557,7 @@
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=yubikey+usb-c",
       "manufacturer": "https://www.yubico.com/"
     },
-    "image": "/images/yubikey-usb-c.png",
+    "image": "/images/2025_06_17_0zr_Kleki(1).png",
     "stock": null
   },
   {
@@ -572,7 +572,7 @@
       "amazon": "https://www.amazon.com/s?k=ESP32+kit",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=ESP32+kit"
     },
-    "image": "/images/esp32-kit.png",
+    "image": "/images/2025_08_10_0zp_Kleki.png",
     "stock": null
   },
   {
@@ -589,7 +589,7 @@
       "amazon": "https://www.amazon.com/s?k=proxmark+3",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=proxmark+3"
     },
-    "image": "/images/proxmark-3-easy.png",
+    "image": "/images/2025_06_15_0z6_Kleki(1).png",
     "stock": null
   },
   {
@@ -605,7 +605,7 @@
       "amazon": "https://www.amazon.com/s?k=pinecil+soldering+iron",
       "manufacturer": "https://www.pine64.org/pinecil/"
     },
-    "image": "/images/pinecil.png",
+    "image": "/images/25835_1_kwadrat.png",
     "stock": null
   },
   {
@@ -621,7 +621,7 @@
       "amazon": "https://www.amazon.com/s?k=usb+c+cable+adapter",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=usb+c+cable+adapter"
     },
-    "image": "/images/usb-c-cable-adapter.png",
+    "image": "/images/image-removebg-preview(11).png",
     "stock": null
   },
   {
@@ -638,7 +638,7 @@
       "amazon": "https://www.amazon.com/s?k=rubber+ducky",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=rubber+ducky"
     },
-    "image": "/images/hackducky.png",
+    "image": "/images/2025_08_13_06e_Kleki.png",
     "stock": null
   },
   {
@@ -655,7 +655,7 @@
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=brother+label+maker",
       "manufacturer": "https://www.brother-usa.com/"
     },
-    "image": "/images/brother-label-maker.png",
+    "image": "/images/2025_06_15_0z6_Kleki(2)(1).png",
     "stock": null
   },
   {
@@ -719,7 +719,7 @@
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=yubikey+usb-a",
       "manufacturer": "https://www.yubico.com/"
     },
-    "image": "/images/yubikey-usb-a.png",
+    "image": "/images/2025_06_17_109_Kleki(1).png",
     "stock": null
   },
   {
@@ -751,7 +751,7 @@
       "amazon": "https://www.amazon.com/s?k=cmf+buds+pro+2",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=cmf+buds+pro+2"
     },
-    "image": "/images/cmf-buds-pro-2.png",
+    "image": "/images/2025_07_22_0na_Kleki.png",
     "stock": null
   },
   {
@@ -768,7 +768,7 @@
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=creality+filament+dryer",
       "manufacturer": "https://www.creality.com/"
     },
-    "image": "/images/creality-filament-dryer.png",
+    "image": "/images/Space_Pi_Filament_Dryer_1.webp",
     "stock": null
   },
   {
@@ -813,7 +813,7 @@
       "amazon": "https://www.amazon.com/s?k=raspberry+pi+500",
       "manufacturer": "https://www.raspberrypi.com/"
     },
-    "image": "/images/raspberry-pi-500.png",
+    "image": "/images/2025_09_28_0ib_Kleki.png",
     "stock": null
   },
   {
@@ -826,7 +826,7 @@
       "3d-printing"
     ],
     "links": {},
-    "image": "/images/minamame-parts-kit.png",
+    "image": "/images/2025_06_18_0mp_Kleki(1).png",
     "stock": null
   },
   {
@@ -858,7 +858,7 @@
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=logitech+mx+master+3s",
       "manufacturer": "https://www.logitech.com/"
     },
-    "image": "/images/logitech-mx-master-3s.png",
+    "image": "/images/image-removebg-preview(4)(1).png",
     "stock": null
   },
   {
@@ -873,7 +873,7 @@
       "amazon": "https://www.amazon.com/s?k=1tb+portable+ssd",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=1tb+portable+ssd"
     },
-    "image": "/images/1tb-portable-ssd.png",
+    "image": "/images/2025_08_14_0g5_Kleki.png",
     "stock": null
   },
   {
@@ -889,7 +889,7 @@
       "amazon": "https://www.amazon.com/s?k=thermal+imager",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=thermal+imager"
     },
-    "image": "/images/thermal-imager.png",
+    "image": "/images/CleanShot%202025-07-16%20at%2011.49.34@2x.png",
     "stock": null
   },
   {
@@ -905,7 +905,7 @@
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=raspberry+pi+5",
       "manufacturer": "https://www.raspberrypi.com/products/raspberry-pi-5/"
     },
-    "image": "/images/raspberry-pi-5.png",
+    "image": "/images/2025_06_17_0yt_Kleki(1).png",
     "stock": null
   },
   {
@@ -984,7 +984,7 @@
       "amazon": "https://www.amazon.com/s?k=xppen+deco+pro+mw",
       "manufacturer": "https://www.xp-pen.com/"
     },
-    "image": "/images/xppen-deco-pro-mw.png",
+    "image": "/images/2025_06_24_0l0_Kleki-removebg-preview(1).png",
     "stock": null
   },
   {
@@ -1027,7 +1027,7 @@
       "amazon": "https://www.amazon.com/s?k=raspberry+pi+500",
       "manufacturer": "https://www.raspberrypi.com/"
     },
-    "image": "/images/raspberry-pi-500.png",
+    "image": "/images/2025_09_28_0if_Kleki.png",
     "stock": null
   },
   {
@@ -1045,7 +1045,7 @@
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=flipper+zero",
       "manufacturer": "https://flipperzero.one/"
     },
-    "image": "/images/flipper-zero.png",
+    "image": "/images/2025_06_15_0th_Kleki.png",
     "stock": null
   },
   {
@@ -1078,7 +1078,7 @@
       "amazon": "https://www.amazon.com/s?k=cricut+explore+3",
       "manufacturer": "https://cricut.com/"
     },
-    "image": "/images/cricut-explore-3.png",
+    "image": "/images/2025_06_15_0td_Kleki.png",
     "stock": null
   },
   {
@@ -1111,7 +1111,7 @@
       "amazon": "https://www.amazon.com/s?k=playdate+console",
       "manufacturer": "https://play.date/"
     },
-    "image": "/images/playdate.png",
+    "image": "/images/image-removebg-preview(13).png",
     "stock": null
   },
   {
@@ -1171,7 +1171,7 @@
     "links": {
       "manufacturer": "https://www.clipstudio.net/"
     },
-    "image": "/images/clip-studio-paint-pro.png",
+    "image": "/images/2025_09_15_0d3_Kleki.png",
     "stock": null
   },
   {
@@ -1228,7 +1228,7 @@
     "links": {
       "manufacturer": "https://www.ikea.com/"
     },
-    "image": "/images/smolhaj.png",
+    "image": "/images/blahaj.png",
     "stock": null
   },
   {
@@ -1243,7 +1243,7 @@
       "amazon": "https://www.amazon.com/s?k=squishmallow",
       "ebay": "https://www.ebay.com/sch/i.html?_nkw=squishmallow"
     },
-    "image": "/images/squishmallow.png",
+    "image": "/images/51NYOgboRTL.png",
     "stock": null
   },
   {
@@ -1258,7 +1258,7 @@
       "amazon": "https://www.amazon.com/s?k=ipad+apple+pencil",
       "manufacturer": "https://www.apple.com/ipad/"
     },
-    "image": "/images/ipad-apple-pencil.png",
+    "image": "/images/2025_06_16_0qh_Kleki(1).png",
     "stock": null
   },
   {
@@ -1274,7 +1274,7 @@
       "amazon": "https://www.amazon.com/s?k=nintendo+switch",
       "manufacturer": "https://www.nintendo.com/"
     },
-    "image": "/images/nintendo-switch-2.png",
+    "image": "/images/image-removebg-preview(6).png",
     "stock": null
   },
   {
@@ -1289,7 +1289,7 @@
       "amazon": "https://www.amazon.com/s?k=remarkable+2",
       "manufacturer": "https://remarkable.com/"
     },
-    "image": "/images/remarkable-2.png",
+    "image": "/images/2025_09_19_0jz_Kleki(1).png",
     "stock": null
   },
   {
@@ -1304,7 +1304,7 @@
       "amazon": "https://www.amazon.com/s?k=mac+mini+m4",
       "manufacturer": "https://www.apple.com/mac-mini/"
     },
-    "image": "/images/m4-mac-mini.png",
+    "image": "/images/2025_06_16_0qf_Kleki(1).png",
     "stock": null
   },
   {
@@ -1320,7 +1320,7 @@
       "amazon": "https://www.amazon.com/s?k=dji+mini+4+pro",
       "manufacturer": "https://www.dji.com/"
     },
-    "image": "/images/dji-mini-4-pro.png",
+    "image": "/images/2025_09_02_0iu_Kleki(1).png",
     "stock": null
   },
   {
@@ -1335,7 +1335,7 @@
       "amazon": "https://www.amazon.com/s?k=framework+laptop",
       "manufacturer": "https://frame.work/"
     },
-    "image": "/images/framework-laptop-12.png",
+    "image": "/images/2025_06_15_0z4_Kleki(1).png",
     "stock": null
   },
   {
@@ -1351,7 +1351,7 @@
       "amazon": "https://www.amazon.com/s?k=prusa+core+one",
       "manufacturer": "https://www.prusa3d.com/"
     },
-    "image": "/images/prusa-core-one.png",
+    "image": "/images/core%20one.avif",
     "stock": null
   },
   {
